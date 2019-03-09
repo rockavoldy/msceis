@@ -1,6 +1,6 @@
 # MSCEIS 2019 Vue
 
-[MSCEIS 2019](https://2019.msceis.org/)
+[MSCEIS 2019](https://msceis.org/2019/)
 
 * Vue 2.6.6
 * Vue-router 3.0.1
