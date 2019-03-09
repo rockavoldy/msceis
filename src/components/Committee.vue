@@ -14,11 +14,11 @@
                 <div class="subheading">
                     <ul>
                         <li>Prof. Dr. H. R. Asep Kadarohman, M.Si. (Rector of Universitas Pendidikan Indonesia)</li>
+                        <li>Siti Fatimah, S.Pd., M.Si., Ph.D (Chair of Steering Committee)</li>
                         <li>Dr. H. M. Solehuddin, M.Pd.</li>
                         <li>Dr. H. Edi Suryadi, M.Si</li>
                         <li>Prof. Dr. Aim Abdulkarim, M.Pd.</li>
                         <li>Prof. Dr. H. Didi Sukyadi, M.A</li>
-                        <li>Siti Fatimah, S.Pd., M.Si., Ph.D</li>
                         <li>Prof. H. Yaya Sukjaya Kusumah, M.Sc., Ph.D</li>
                         <li>Prof. Dr. Munir, M.IT</li>
                         <li>Prof. Dr. Phil. Ari Widodo, M.Ed</li>
@@ -36,27 +36,28 @@
                 <h1 display-4 class="primary--text">Scientific Committee</h1>
                 <div class="subheading">
                     <ul>
-                        <li>Dr. Leonel Hernandez (Computer Network)</li>
-                        <li>Dr. Shah Nazir (Soft Computing)</li>
-                        <li>Dr. Mahmoud Fahsi (Artificial Intelligence and Expert Systems)</li>
-                        <li>Prof. Dr. Tsukasa Hirashima (Computer Science Education)</li>
+                        <li>Dr. Leonel Hernandez (Computer Network; ITSA University; lhernandezc@itsa.edu.co; Colombia)</li>
+                        <li>Dr. Shah Nazir (Soft Computing; University of Swabi; snshahnzr@gmail.com; Pakistan)</li>
+                        <li>Dr. Mahmoud Fahsi (Artificial Intelligence and Expert Systems; EEDIS Laboratory, Djillali Liabes University, Sidi Bel Abbes; mfahci@univ-sba.dz; Algeria)</li>
+                        <li>Prof. Dr. Tsukasa Hirashima (Computer Science Education; Hiroshima University; tsukasa@lel.hiroshima-u.ac.jp; Japan)</li>
                         <li>Prof. Dr. Faaizah Binti Shahbodin (Special Education)</li>
-                        <li>Dr. Francisco Javier Rodriguez Diaz (Optimization and Evolutionary Programming)</li>
-                        <li>Dr. Diana Martín Rodríguez (Data Mining)</li>
-                        <li>Prof. Minsu Ha, P.hD (Science Education)</li>
-                        <li>Dr. Wayan Suparta (Astronomy)</li>
-                        <li>Dr Muhammad Abd Hadi Bin Bunyamin (Physics Education)</li>
-                        <li>Dr. Ken Kahn (Artificial Intelligent)</li>
-                        <li>Prof. Dr. Peter Aubusson (STEM Education)</li>
-                        <li>Dr. Nina Burridge (Education for human rights and cultural diversity)</li>
-                        <li>Prof. Dr. Hsin-Kai Wu (Learning Technology, Inquiry Learning, Chemistry Education and Computer-based Assessment)</li>
-                        <li>Prof. Dr. Raphael Finkel (Systems, Linguistics)</li>
-                        <li>Dr. Sazali bin Yusoff (Educational Management and Leadership)</li>
-                        <li>Prof. Dr. Adrie Visscher (Educational Evaluation)</li>
-                        <li>Dr. Chai Ching Sing (Educational Technology)</li>
-                        <li>Prof. Dr. David F. Treagust (Conceptual change, Multi representations)</li>
-                        <li>Assoc. Prof. Dr. Davin HES (National Institute of Technology)</li>
-                        <li>Assoc. Prof. Tony H (Curtin University)</li>
+                        <li>Prof. Dr. Faaizah Binti Shahbodin (Special Education; Universiti Teknikal Malaysia Melaka; faaizah@utem.edu.my; Malaysia)</li>
+                        <li>Dr. Francisco Javier Rodriguez Diaz (Optimization and Evolutionary Programming; University of Burgos; fjrodriguez@decsai.ugr.es; Spain)</li>
+                        <li>Dr. Diana Martín Rodríguez (Data Mining; Universidad Tecnológica de la Habana; dmartin@ceis.cujae.edu.cu; Cuba)</li>
+                        <li>Prof. Minsu Ha, P.hD (Science Education; Kangwon National University; msha@kangwon.ac.kr; Korea)</li>
+                        <li>Dr. Wayan Suparta (Astronomy; Space Science Centre, UKM; wayan@ukm.edu.my; Malaysia)</li>
+                        <li>Dr Muhammad Abd Hadi Bin Bunyamin (Physics Education; UTM; mabhadi@utm.my; Malaysia)</li>
+                        <li>Dr. Ken Kahn (Artificial Intelligent, Computational Education; University of Oxford; toontalk@gmail.com; United Kingdom)</li>
+                        <li>Prof. Dr. Peter Aubusson (STEM Education; University of Technology Sydney; Peter.Aubusson@uts.edu.au; Australia)</li>
+                        <li>Dr. Nina Burridge (Education for Human Rights and Cultural Diversity; University of Technology Sydney; Nina.Burridge@uts.edu.au; Australia)</li>
+                        <li>Prof. Dr. Hsin-Kai Wu (Learning Technology, Inquiry Learning, Chemistry Education and Computer-based Assessment; National Taiwan Normal University; hkwu@ntnu.edu.tw; Taiwan)</li>
+                        <li>Prof. Dr. Raphael Finkel (Systems, Linguistics; University of Kentucky; raphael@cs.uky.edu; United States)</li>
+                        <li>Dr. Sazali bin Yusoff (Educational Management and Leadership; Institute of Teacher Education; sazaliy@yahoo.com; Malaysia)</li>
+                        <li>Prof. Dr. Adrie Visscher (Educational Evaluation; University of Twente; a.j.visscher@utwente.nl; Netherlands)</li>
+                        <li>Dr. Chai Ching Sing (Educational Technology; The Chinese University of Hong Kong; cingsing.chai@nie.edu.sg; Hongkong)</li>
+                        <li>Prof. Dr. David F. Treagust (Conceptual Change, Multi Representations; Curtin University; D.Treagust@curtin.edu.au; Australia)</li>
+                        <li>Assoc. Prof. Dr. Davin HES (National Institute of Technology; Wakayama College; davin@wakayama-nct.ac.jp; Japan)</li>
+                        <li>Assoc. Prof. Tony H (Curtin University; hadibarata@curtin.edu; Malaysia)</li>
                     </ul>
                 </div>
                 <br>
@@ -162,7 +163,7 @@
                 <h1 display-4 class="primary--text">AMLI Program</h1>
                 <div class="subheading">
                     <ul>
-                        <li>Dr. Achmad Samsudin, M.Pd</li>
+                        <li>Dr. Achmad Samsudin, M.Pd (Coordinator)</li>
                         <li>Dr. Mimin Iryanti, M.Si</li>
                         <li>Dr. Ahmad Aminudin, M.Si</li>
                         <li>Marthalina Iriany, M.T.</li>
