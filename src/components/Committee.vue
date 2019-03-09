@@ -40,7 +40,6 @@
                         <li>Dr. Shah Nazir (Soft Computing; University of Swabi; snshahnzr@gmail.com; Pakistan)</li>
                         <li>Dr. Mahmoud Fahsi (Artificial Intelligence and Expert Systems; EEDIS Laboratory, Djillali Liabes University, Sidi Bel Abbes; mfahci@univ-sba.dz; Algeria)</li>
                         <li>Prof. Dr. Tsukasa Hirashima (Computer Science Education; Hiroshima University; tsukasa@lel.hiroshima-u.ac.jp; Japan)</li>
-                        <li>Prof. Dr. Faaizah Binti Shahbodin (Special Education)</li>
                         <li>Prof. Dr. Faaizah Binti Shahbodin (Special Education; Universiti Teknikal Malaysia Melaka; faaizah@utem.edu.my; Malaysia)</li>
                         <li>Dr. Francisco Javier Rodriguez Diaz (Optimization and Evolutionary Programming; University of Burgos; fjrodriguez@decsai.ugr.es; Spain)</li>
                         <li>Dr. Diana Martín Rodríguez (Data Mining; Universidad Tecnológica de la Habana; dmartin@ceis.cujae.edu.cu; Cuba)</li>
