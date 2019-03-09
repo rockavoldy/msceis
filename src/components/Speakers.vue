@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+    <v-container grid-list-md>
         <v-layout>
             <v-flex>
                 <v-card class="pl-2 pr-2">
@@ -15,55 +15,58 @@
                         <h4 class="display-1">Keynote Speakers</h4>
                     </v-flex>
                 </v-layout>
-                <v-layout v-bind="keynote" justify-center>
-                    <v-flex xs12 md6>
-                        <v-card height="250">
+                <v-layout column>
+                    <v-flex xs12 mb-3>
+                        <v-card min-height="300">
                             <v-layout>
-                                <v-flex xs12 sm4 md5 lg4 hidden-xs-only>
-                                    <v-img src="./img/keynote/goutam.jpg" height="250px"></v-img>
-                                </v-flex>
-                                <v-flex xs12 sm7>
-                                    <v-card-title primary-title>
-                                        <div>
-                                            <div class="headline">Prof. Goutam Chakraborty, Ph.D.</div>
-                                            <div class="subheading">Iwate Prefectural University</div>
-                                            <div class="body-1">Artificial Intelligence</div>
-                                            <div class="body-1">Japan</div>
-                                            <div class="body-2">
-                                                <a
-                                                    class="blue-grey--text"
-                                                    href="http://www.chishiki.soft.iwate-pu.ac.jp/~goutam/"
-                                                >http://www.chishiki.soft.iwate-pu.ac.jp/</a>
-                                            </div>
+                                <v-responsive height="100%" class="hidden-xs-only">
+                                    <v-img src="./img/keynote/goutam.jpg" height="300" width="220"></v-img>
+                                </v-responsive>
+                                <v-card-text>
+                                    <v-flex xs12 sm12 md12 lg12 xl12>
+                                        <div class="title">Prof. Goutam Chakraborty, Ph.D.</div>
+                                        <div class="subheading">
+                                            <a
+                                                href="http://www.chishiki.soft.iwate-pu.ac.jp/~goutam/"
+                                                target="_blank"
+                                                style="text-decoration: none"
+                                            >Iwate Prefectural University</a>, Japan
                                         </div>
-                                    </v-card-title>
-                                </v-flex>
+                                    </v-flex>
+                                    <v-flex>
+                                        <div class="title">Tentative Title:</div>
+                                        <p body-1>To Be Announced (TBA)</p>
+                                        <div class="title">Abstract:</div>
+                                        <p body-1>To Be Announced (TBA)</p>
+                                    </v-flex>
+                                </v-card-text>
                             </v-layout>
                         </v-card>
-                    </v-flex>&nbsp;&nbsp;&nbsp;
-                    <v-flex xs12 md6>
-                        <v-card height="250">
+                    </v-flex>
+                    <v-flex xs12>
+                        <v-card min-height="300">
                             <v-layout>
-                                <v-flex xs12 sm4 md5 lg4 hidden-xs-only>
-                                    <v-img src="./img/keynote/igusti.jpeg" height="250"></v-img>
-                                </v-flex>
-                                <v-flex xs12 sm7>
-                                    <v-card-title primary-title>
-                                        <div>
-                                            <div class="headline">Dr. I Gusti Darmawan</div>
-                                            <div class="subheading">School of Education</div>
-                                            <div class="subheading">The University of Adelaide</div>
-                                            <div class="body-1">Science and Mathematics Education</div>
-                                            <div class="body-1">Australia</div>
-                                            <div class="body-2">
-                                                <a
-                                                    class="blue-grey--text"
-                                                    href="https://www.adelaide.edu.au/directory/igusti.darmawan#"
-                                                >https://www.adelaidde.edu.au/</a>
-                                            </div>
+                                <v-responsive height="100%" class="hidden-xs-only">
+                                    <v-img src="./img/keynote/igusti.jpeg" height="300" width="220"></v-img>
+                                </v-responsive>
+                                <v-card-text>
+                                    <v-flex xs12 sm12 md12 lg12 xl12>
+                                        <div class="title">Dr. I Gusti Darmawan</div>
+                                        <div class="subheading">
+                                            <a
+                                                href="https://www.adelaide.edu.au/directory/igusti.darmawan#"
+                                                target="_blank"
+                                                style="text-decoration: none"
+                                            >The University of Adelaide</a>, Australia
                                         </div>
-                                    </v-card-title>
-                                </v-flex>
+                                    </v-flex>
+                                    <v-flex>
+                                        <div class="title">Tentative Title:</div>
+                                        <p body-1>To Be Announced (TBA)</p>
+                                        <div class="title">Abstract:</div>
+                                        <p body-1>To Be Announced (TBA)</p>
+                                    </v-flex>
+                                </v-card-text>
                             </v-layout>
                         </v-card>
                     </v-flex>
@@ -73,43 +76,29 @@
                         <h4 class="display-1">Invited Speakers</h4>
                     </v-flex>
                 </v-layout>
-                <v-layout>
-                    <v-carousel hide-delimiters height="200">
-                        <v-carousel-item v-for="(item, i) in iSpeakers" :key="i">
-                            <v-layout
-                                justify-center
-                                align-center
-                                fill-height
-                                text-xs-center
-                                class="blue"
-                            >
-                                <v-flex xs6 sm5 md4 lg3 hidden-xs-only>
-                                    <v-img
-                                        src="./img/invited/dummy.jpg"
-                                        height="100%"
-                                        min-width="40%"
-                                    ></v-img>
-                                </v-flex>
-                                <v-flex xs6 sm7 md8 lg9>
-                                    <v-responsive class="white--text">
-                                        <v-card color="blue">
-                                            <v-card-text>
-                                                <div
-                                                    class="headline font-weight-medium"
-                                                >{{item.name}}</div>
-                                                <div class="title">{{item.major}}</div>
-                                                <div
-                                                    class="subheading font-weight-medium"
-                                                >{{item.institution}}</div>
-                                            </v-card-text>
-                                        </v-card>
-                                    </v-responsive>
-                                </v-flex>
+                <v-layout column>
+                    <v-flex xs12 v-for="(item, i) in invited" :key="i" mb-3>
+                        <v-card min-height="300">
+                            <v-layout>
+                                <v-responsive height="100%" class="hidden-xs-only">
+                                    <v-img :src="item.src" height="300" width="220"></v-img>
+                                </v-responsive>
+                                <v-card-text>
+                                    <v-flex xs12 sm12 md12 lg12 xl12>
+                                        <div class="title">{{item.name}}</div>
+                                        <div class="subheading">{{item.major}}, {{item.institution}}</div>
+                                    </v-flex>
+                                    <v-flex>
+                                        <div class="title">Tentative Title:</div>
+                                        <p body-1>{{item.title}}</p>
+                                        <div class="title">Abstract:</div>
+                                        <p body-1>{{item.abstract}}</p>
+                                    </v-flex>
+                                </v-card-text>
                             </v-layout>
-                        </v-carousel-item>
-                    </v-carousel>
+                        </v-card>
+                    </v-flex>
                 </v-layout>
-                <br>
             </v-flex>
         </v-layout>
     </v-container>
@@ -135,71 +124,123 @@ export default {
                 to: "/speakers"
             }
         ],
-        iSpeakers: [
+        invited: [
             {
                 name: "Dr. Eng. Pakhrur Razi, M.Si.",
-                major: "Bidang Fisika Instumentasi",
-                institution: "Universitas Negeri Padang"
+                major: "Instrumentation Physics",
+                institution: "Universitas Negeri Padang",
+                sintaid: "5999238",
+                src: "./img/invited/pakhrur.jpeg",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
                 name: "Prof. Dr. Manihar Situmorang, MSc., PhD.",
-                major: "Bidang Kimia Analitik",
-                institution: "Universitas Negeri Medan"
+                major: "Analytical Chemistry",
+                institution: "Universitas Negeri Medan",
+                sintaid: "5976591",
+                src: "./img/invited/manihar.jpeg",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
-                name: "Prof. Dr. I Nengah Suparta, M.Si",
-                major: "Matematika",
-                institution: "Universitas Pendidikan Ganesha"
+                name: "Prof. Dr. I Nengah Suparta, M.Si.",
+                major: "Mathematics",
+                institution: "Universitas Pendidikan Ganesha",
+                sintaid: "6026698",
+                src: "./img/invited/nengah.jpeg",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
-                name: "Dra. Dwi Yulianti, M.Si",
-                major: "Pendidikan Fisika (Tema STEM)",
-                institution: "Universitas Negeri Semarang"
+                name: "Dra. Dwi Yulianti, M.Si.",
+                major: "Physics Education",
+                institution: "Universitas Negeri Semarang",
+                sintaid: "5994568",
+                src: "./img/invited/dwi.jpeg",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
-                name: "Prof. Dr. Sarson W.Dj. Pomalato, M.Pd.",
-                major: "Pendidikan Matematika",
-                institution: "Universitas Negeri Gorontalo"
+                name: "Prof. Dr. Sarson W. Pomalato, M.Pd.",
+                major: "Mathematics Education",
+                institution: "Universitas Negeri Gorontalo",
+                sintaid: "-",
+                src: "./img/invited/sarson.jpeg",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
-                name: "Prof. Dr. Orbanus Naharia, MS.",
-                major: "Biologi Lingkungan",
-                institution: "FPMIPA Universitas Negeri Manado"
+                name: "Prof. Dr. Orbanus Naharia, M.Si",
+                major: "Biology",
+                institution: "Universitas Negeri Manado",
+                sintaid: "6015780",
+                src: "./img/invited/dummy.png",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
                 name: "Dr. Dadan Rosana",
-                major: "Pendidikan IPA",
-                institution: "Universitas Negeri Yogyakarta"
+                major: "Science Education",
+                institution: "Universitas Negeri Yogyakarta",
+                sintaid: "5990577",
+                src: "./img/invited/dummy.png",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
-                name: "Dr. Sumari, M.Si.",
-                major: "Kimia-Fisika Jurusan Kimia",
-                institution: "Universitas Negeri Malang"
+                name: "Dr. Sumari, M.Si",
+                major: "Chemistry",
+                institution: "Universitas Negeri Malang",
+                sintaid: "51667",
+                src: "./img/invited/sumari.jpeg",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
-                name: "Prof. Dr. Hamzah Upu, M.Ed.",
-                major: "Pendidikan Matematika",
-                institution: "Universitas Negeri Makassar"
+                name: "Prof. Dr. Hamzah Upu, M.Ed",
+                major: "Mathematics Education",
+                institution: "Universitas Negeri Makassar",
+                sintaid: "6035939",
+                src: "./img/invited/hamzah.jpeg",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
                 name: "Prof. Dr. I Made Putrawan",
-                major: "Pendidikan Biologi",
-                institution: "Universitas Negeri Jakarta"
+                major: "Biology Education",
+                institution: "Universitas Negeri Jakarta",
+                sintaid: "6003199",
+                src: "./img/invited/dummy.png",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
-                name: "Dr. Sukarmin, M.Pd.",
-                major: "Pendidikan Kimia",
-                institution: "Universitas Negeri Surabaya"
+                name: "Dr. Sukarmin, M.Pd",
+                major: "Chemistry Education",
+                institution: "Universitas Negeri Surabaya",
+                sintaid: "5988947",
+                src: "./img/invited/sukarmin.jpeg",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
-                name: "Dr. Muhammad Nursalman",
-                major: "Ilmu Komputer",
-                institution: "Universitas Pendidikan Indonesia"
+                name: "Dr. Muhamad Nursalman",
+                major: "Computer Science",
+                institution: "Universitas Pendidikan Indonesia",
+                sintaid: "6143456",
+                src: "./img/invited/nursalman.jpeg",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             },
             {
                 name: "Prof. Dr. Wawan Setiawan",
-                major: "Pendidikan Ilmu Komputer",
-                institution: "Universitas Pendidikan Indonesia"
+                major: "Computer Science Education",
+                institution: "Universitas Pendidikan Indonesia",
+                sintaid: "5977494",
+                src: "./img/invited/wawan.jpeg",
+                title: "To Be Announced (TBA)",
+                abstract: "To Be Announced (TBA)"
             }
         ]
     }),

@@ -33,17 +33,15 @@
                 </v-layout>
                 <v-layout v-bind="keynote">
                     <v-flex xs12 md6>
-                        <v-card min-height="260" to="/speakers#goutam" class="mb-2">
+                        <v-card min-height="260" to="/speakers" class="mb-2">
                             <v-layout>
                                 <v-responsive height="100%" class="hidden-xs-only">
                                     <v-img src="./img/keynote/goutam.jpg" height="260" width="200"></v-img>
                                 </v-responsive>
-                                <v-flex xs12 sm7 md7 lg7 xl9>
+                                <v-flex xs12>
                                     <v-card-title primary-title class="mt-3">
                                         <div>
-                                            <div
-                                                class="headline font-weight-medium"
-                                            >Prof. Goutam Chakraborty, Ph.D.</div>
+                                            <div class="headline">Prof. Goutam Chakraborty, Ph.D.</div>
                                             <div class="subheading">Iwate Prefectural University</div>
                                             <div class="body-1">Artificial Intelligence</div>
                                             <div class="body-1">Japan</div>
@@ -54,12 +52,12 @@
                         </v-card>
                     </v-flex>&nbsp;
                     <v-flex xs12 md6>
-                        <v-card min-height="260" to="/speakers#igusti">
+                        <v-card min-height="260" to="/speakers" class="mb-2">
                             <v-layout>
                                 <v-responsive height="100%" class="hidden-xs-only">
                                     <v-img src="./img/keynote/igusti.jpeg" height="260" width="200"></v-img>
                                 </v-responsive>
-                                <v-flex xs12 sm7 md7 lg7 xl9>
+                                <v-flex xs12>
                                     <v-card-title primary-title class="mt-3">
                                         <div>
                                             <div class="headline">Dr. I Gusti Darmawan</div>
