@@ -1,15 +1,16 @@
 <template>
-    <v-container>
+    <v-container grid-list-md>
         <v-layout>
             <v-flex>
                 <h2 display-3 class="text-xs-center primary--text">Welcome to MSCEIS 2019</h2>
-                <p
-                    class="subheading text-xs-justify"
-                >Mathematics, Science, and Computer Science Education International Seminar (MSCEIS) 2019 is an annual conference which held by many domestic and overseas universities. It is held by the Faculty of Mathematics and Natural Science Education, Universitas Pendidikan Indonesia (UPI) and the collaboration with 12 University associated in Asosiasi MIPA LPTK Indonesia (AMLI) consisting of UNNES, UPI, UNY, UM, UNJ, UNIMED, UNP, UNIMA, UNM, UNDHIKSA, UNG, and UNESA.</p>
+                <p class="subheading text-xs-justify">
+                    Mathematics, Science, and Computer Science Education International Seminar (MSCEIS) 2019 is an annual conference which held by many domestic and overseas universities. It is held by the Faculty of Mathematics and Natural Science Education, Universitas Pendidikan Indonesia (UPI) and the collaboration with 12 University associated in Asosiasi MIPA LPTK Indonesia (AMLI) consisting of
+                    Universitas Negeri Semarang (UNNES), Universitas Pendidikan Indonesia (UPI), Universitas Negeri Yogyakarta (UNY), Universitas Negeri Malang (UM), Universitas Negeri Jakarta (UNJ), Universitas Negeri Medan (UNIMED), Universitas Negeri Padang (UNP), Universitas Negeri Manado (UNIMA), Universitas Negeri Makassar (UNM), Universitas Pendidikan Ganesha (UNDHIKSA), Universitas Negeri Gorontalo (UNG), and Universitas Negeri Surabaya (UNESA).
+                </p>
                 <p class="subheading text-xs-justify">
                     In this year, MSCEIS 2019 takes the following theme:
                     <i class="green--text">
-                        <b>"Mathematics, Science, and Computer Science education for Addressing challenges and implementations of Revolution-Industry 4.0"</b>
+                        <b>"Mathematics, Science, and Computer Science Education for Addressing Challenges and Implementations of Revolution-Industry 4.0"</b>
                     </i>. It will be held on October 12, 2019 in Bandung, West Java, Indonesia.
                 </p>
                 <p
@@ -32,50 +33,38 @@
                 </v-layout>
                 <v-layout v-bind="keynote">
                     <v-flex xs12 md6>
-                        <v-card min-height="255">
+                        <v-card min-height="260" to="/speakers" class="mb-2">
                             <v-layout>
-                                <v-flex xs12 sm5 md5 lg5 hidden-xs-only>
-                                    <v-img src="./img/keynote/goutam.jpg" height="260" width="180"></v-img>
-                                </v-flex>
-                                <v-flex xs12 sm7 md7 lg7>
-                                    <v-card-text primary-title>
+                                <v-responsive height="100%" class="hidden-xs-only">
+                                    <v-img src="./img/keynote/goutam.jpg" height="260" width="200"></v-img>
+                                </v-responsive>
+                                <v-flex xs12>
+                                    <v-card-title primary-title class="mt-3">
                                         <div>
                                             <div class="headline">Prof. Goutam Chakraborty, Ph.D.</div>
                                             <div class="subheading">Iwate Prefectural University</div>
                                             <div class="body-1">Artificial Intelligence</div>
                                             <div class="body-1">Japan</div>
-                                            <div class="body-2">
-                                                <a
-                                                    class="blue-grey--text"
-                                                    href="http://www.chishiki.soft.iwate-pu.ac.jp/~goutam/"
-                                                >http://www.chishiki.soft.iwate-pu.ac.jp/</a>
-                                            </div>
                                         </div>
-                                    </v-card-text>
+                                    </v-card-title>
                                 </v-flex>
                             </v-layout>
                         </v-card>
-                    </v-flex>&nbsp;&nbsp;&nbsp;
+                    </v-flex>&nbsp;
                     <v-flex xs12 md6>
-                        <v-card min-height="255">
+                        <v-card min-height="260" to="/speakers" class="mb-2">
                             <v-layout>
-                                <v-flex xs12 sm4 md4 lg4 hidden-xs-only>
-                                    <v-img src="./img/keynote/igusti.jpeg" height="260" width="180"></v-img>
-                                </v-flex>
-                                <v-flex xs12 sm8 md8 lg8>
-                                    <v-card-title primary-title>
+                                <v-responsive height="100%" class="hidden-xs-only">
+                                    <v-img src="./img/keynote/igusti.jpeg" height="260" width="200"></v-img>
+                                </v-responsive>
+                                <v-flex xs12>
+                                    <v-card-title primary-title class="mt-3">
                                         <div>
                                             <div class="headline">Dr. I Gusti Darmawan</div>
                                             <div class="subheading">School of Education</div>
                                             <div class="subheading">The University of Adelaide</div>
                                             <div class="body-1">Science and Mathematics Education</div>
                                             <div class="body-1">Australia</div>
-                                            <div class="body-2">
-                                                <a
-                                                    class="blue-grey--text"
-                                                    href="https://www.adelaide.edu.au/directory/igusti.darmawan#"
-                                                >https://www.adelaidde.edu.au/</a>
-                                            </div>
                                         </div>
                                     </v-card-title>
                                 </v-flex>
@@ -83,63 +72,137 @@
                         </v-card>
                     </v-flex>
                 </v-layout>
-                <br>
                 <v-layout justify-center text-xs-center>
                     <v-flex xs12 xs8 sm6 md4 mb-3 mt-4>
                         <h4 class="display-1">Invited Speakers</h4>
                     </v-flex>
                 </v-layout>
-                <v-layout>
-                    <v-carousel hide-delimiters height="250" light>
-                        <v-carousel-item v-for="(item, i) in iSpeakers" :key="i">
-                            <v-layout justify-center align-center fill-height text-xs-center>
-                                <v-flex xs6 sm5 md4 lg3 hidden-xs-only>
-                                    <v-img
-                                        src="./img/invited/dummy.jpg"
-                                        height="100%"
-                                        min-width="40%"
-                                    ></v-img>
-                                </v-flex>
-                                <v-flex xs6 sm7 md8 lg9>
-                                    <div>
-                                        <div class="headline font-weight-medium">{{item.name}}</div>
-                                        <div class="title">{{item.major}}</div>
-                                        <div
-                                            class="subheading font-weight-medium"
-                                        >{{item.institution}}</div>
-                                    </div>
-                                </v-flex>
-                            </v-layout>
-                        </v-carousel-item>
-                    </v-carousel>
-                </v-layout>
-                <br>
-                <v-layout justify-center text-xs-center>
-                    <v-flex xs12 xs8 sm6 md4 mb-3 mt-4>
-                        <h4 class="display-1">AMLI Members</h4>
+                <v-layout v-bind="keynote" text-xs-center text-sm-left>
+                    <v-flex xs12 md6>
+                        <v-card min-height="260">
+                            <v-carousel hide-delimiters height="260" light>
+                                <v-carousel-item v-for="(item, i) in invited1" :key="i">
+                                    <v-layout>
+                                        <v-responsive height="100%" class="hidden-xs-only">
+                                            <v-img :src="item.src" height="265" width="200"></v-img>
+                                        </v-responsive>
+                                        <v-flex xs12 sm7 md7 lg7 xl9>
+                                            <v-card-text class="mt-5">
+                                                <div class="headline">{{item.name}}</div>
+                                                <div class="subheading">{{item.major}}</div>
+                                                <div class="body-1">{{item.institution}}</div>
+                                                <div class="body-1">Sinta ID: {{item.sintaid}}</div>
+                                            </v-card-text>
+                                        </v-flex>
+                                    </v-layout>
+                                </v-carousel-item>
+                            </v-carousel>
+                        </v-card>
+                    </v-flex>
+                    <v-flex xs12 md6>
+                        <v-card min-height="260">
+                            <v-carousel hide-delimiters height="260" light>
+                                <v-carousel-item v-for="(item, i) in invited2" :key="i">
+                                    <v-layout>
+                                        <v-responsive height="100%" class="hidden-xs-only">
+                                            <v-img :src="item.src" height="265" width="200"></v-img>
+                                        </v-responsive>
+                                        <v-flex xs12 sm7 md7 lg7 xl9>
+                                            <v-card-text class="mt-5">
+                                                <div class="headline">{{item.name}}</div>
+                                                <div class="subheading">{{item.major}}</div>
+                                                <div class="body-1">{{item.institution}}</div>
+                                                <div class="body-1">Sinta ID: {{item.sintaid}}</div>
+                                            </v-card-text>
+                                        </v-flex>
+                                    </v-layout>
+                                </v-carousel-item>
+                            </v-carousel>
+                        </v-card>
                     </v-flex>
                 </v-layout>
-                <v-layout>
-                    <v-carousel hide-delimiters hide-controls height="250">
-                        <v-carousel-item v-for="(item, i) in AMLI" :key="i" class="blue">
-                            <v-layout
-                                justify-center
-                                align-center
-                                fill-height
-                                text-xs-center
-                                class="white"
-                            >
-                                <v-flex xs6 sm5 md4 lg3>
-                                    <v-img :src="item.src" height="150" contain></v-img>
-                                </v-flex>
-                                <v-flex xs6 sm7 md8 lg9 hidden-xs-only>
-                                    <div>
-                                        <div class="display-3 font-weight-medium">{{item.name}}</div>
-                                    </div>
-                                </v-flex>
-                            </v-layout>
-                        </v-carousel-item>
-                    </v-carousel>
+                <v-layout justify-center text-xs-center>
+                    <v-flex xs12 xs8 sm6 md4 mb-3 mt-4>
+                        <h4 class="display-1">Scope</h4>
+                    </v-flex>
+                </v-layout>
+                <h3
+                    display-2
+                >Topics of interest include all aspects of MSCEIS 2019 including, but not limited to:</h3>
+                <v-layout wrap v-bind="checkSize">
+                    <v-flex xs12 sm12 md6>
+                        <v-card min-height="300">
+                            <v-card-text class="subheading">
+                                <p class="title">Pure and Applied Mathematics</p>
+                                <ul>
+                                    <li>Algebra</li>
+                                    <li>Mathematical Physics</li>
+                                    <li>Statistics</li>
+                                    <li>Analysis</li>
+                                    <li>Industrial Mathematics</li>
+                                    <li>Dynamical Systems</li>
+                                    <li>Combinatorial Mathematics</li>
+                                </ul>
+                            </v-card-text>
+                        </v-card>
+                    </v-flex>
+                    <v-flex xs12 sm12 md6>
+                        <v-card min-height="300">
+                            <v-card-text class="subheading">
+                                <p class="title">Science and Technology</p>
+                                <ul>
+                                    <li>Material and Biomaterial</li>
+                                    <li>Environmental Sciences</li>
+                                    <li>Biotechnology</li>
+                                    <li>Earth and Space Sciences</li>
+                                    <li>Nuclear</li>
+                                    <li>Food Science and Technology</li>
+                                    <li>Nanotechnology</li>
+                                    <li>Energy and Catalyst</li>
+                                    <li>Instrumentation</li>
+                                </ul>
+                            </v-card-text>
+                        </v-card>
+                    </v-flex>
+                    <v-flex xs12 sm12 md6>
+                        <v-card min-height="320">
+                            <v-card-text class="subheading">
+                                <p class="title">Information and Technology</p>
+                                <ul>
+                                    <li>Artificial Intelligence</li>
+                                    <li>Machine Learning</li>
+                                    <li>Computer Vision</li>
+                                    <li>Natural Language Processing</li>
+                                    <li>Control and Robotics</li>
+                                    <li>Big Data and Data Mining</li>
+                                    <li>Information System and IT Operation</li>
+                                    <li>Software Engineering</li>
+                                    <li>Computer Network and Security</li>
+                                    <li>Mobile Computing</li>
+                                </ul>
+                            </v-card-text>
+                        </v-card>
+                    </v-flex>
+                    <v-flex xs12 sm12 md6>
+                        <v-card min-height="320">
+                            <v-card-text class="subheading">
+                                <p
+                                    class="title"
+                                >Mathematics, Science, and Computer Science Education</p>
+                                <ul>
+                                    <li>Curriculum Development</li>
+                                    <li>Learning Resources</li>
+                                    <li>Assessment and Evaluation</li>
+                                    <li>Teacher Professional Development</li>
+                                    <li>Distance Learning</li>
+                                    <li>Multimedia</li>
+                                    <li>Higher Order Thinking</li>
+                                    <li>Models of Teaching</li>
+                                    <li>Educational Technology</li>
+                                </ul>
+                            </v-card-text>
+                        </v-card>
+                    </v-flex>
                 </v-layout>
             </v-flex>
         </v-layout>
@@ -151,121 +214,99 @@
 export default {
     data() {
         return {
-            iSpeakers: [
+            invited1: [
                 {
                     name: "Dr. Eng. Pakhrur Razi, M.Si.",
-                    major: "Bidang Fisika Instumentasi",
-                    institution: "Universitas Negeri Padang"
+                    major: "Instrumentation Physics",
+                    institution: "Universitas Negeri Padang",
+                    sintaid: "5999238",
+                    src: "./img/invited/pakhrur.jpeg"
                 },
                 {
                     name: "Prof. Dr. Manihar Situmorang, MSc., PhD.",
-                    major: "Bidang Kimia Analitik",
-                    institution: "Universitas Negeri Medan"
+                    major: "Analytical Chemistry",
+                    institution: "Universitas Negeri Medan",
+                    sintaid: "5976591",
+                    src: "./img/invited/manihar.jpeg"
                 },
                 {
-                    name: "Prof. Dr. I Nengah Suparta, M.Si",
-                    major: "Matematika",
-                    institution: "Universitas Pendidikan Ganesha"
+                    name: "Prof. Dr. I Nengah Suparta, M.Si.",
+                    major: "Mathematics",
+                    institution: "Universitas Pendidikan Ganesha",
+                    sintaid: "6026698",
+                    src: "./img/invited/nengah.jpeg"
                 },
                 {
-                    name: "Dra. Dwi Yulianti, M.Si",
-                    major: "Pendidikan Fisika (Tema STEM)",
-                    institution: "Universitas Negeri Semarang"
+                    name: "Dra. Dwi Yulianti, M.Si.",
+                    major: "Physics Education",
+                    institution: "Universitas Negeri Semarang",
+                    sintaid: "5994568",
+                    src: "./img/invited/dwi.jpeg"
                 },
                 {
-                    name: "Prof. Dr. Sarson W.Dj. Pomalato, M.Pd.",
-                    major: "Pendidikan Matematika",
-                    institution: "Universitas Negeri Gorontalo"
+                    name: "Prof. Dr. Sarson W. Pomalato, M.Pd.",
+                    major: "Mathematics Education",
+                    institution: "Universitas Negeri Gorontalo",
+                    sintaid: "-",
+                    src: "./img/invited/sarson.jpeg"
                 },
                 {
-                    name: "Prof. Dr. Orbanus Naharia, MS.",
-                    major: "Biologi Lingkungan",
-                    institution: "FPMIPA Universitas Negeri Manado"
-                },
+                    name: "Prof. Dr. Orbanus Naharia, M.Si",
+                    major: "Biology",
+                    institution: "Universitas Negeri Manado",
+                    sintaid: "6015780",
+                    src: "./img/invited/dummy.png"
+                }
+            ],
+            invited2: [
                 {
                     name: "Dr. Dadan Rosana",
-                    major: "Pendidikan IPA",
-                    institution: "Universitas Negeri Yogyakarta"
+                    major: "Science Education",
+                    institution: "Universitas Negeri Yogyakarta",
+                    sintaid: "5990577",
+                    src: "./img/invited/dummy.png"
                 },
                 {
-                    name: "Dr. Sumari, M.Si.",
-                    major: "Kimia-Fisika Jurusan Kimia",
-                    institution: "Universitas Negeri Malang"
+                    name: "Dr. Sumari, M.Si",
+                    major: "Chemistry",
+                    institution: "Universitas Negeri Malang",
+                    sintaid: "51667",
+                    src: "./img/invited/sumari.jpeg"
                 },
                 {
-                    name: "Prof. Dr. Hamzah Upu, M.Ed.",
-                    major: "Pendidikan Matematika",
-                    institution: "Universitas Negeri Makassar"
+                    name: "Prof. Dr. Hamzah Upu, M.Ed",
+                    major: "Mathematics Education",
+                    institution: "Universitas Negeri Makassar",
+                    sintaid: "6035939",
+                    src: "./img/invited/hamzah.jpeg"
                 },
                 {
                     name: "Prof. Dr. I Made Putrawan",
-                    major: "Pendidikan Biologi",
-                    institution: "Universitas Negeri Jakarta"
+                    major: "Biology Education",
+                    institution: "Universitas Negeri Jakarta",
+                    sintaid: "6003199",
+                    src: "./img/invited/dummy.png"
                 },
                 {
-                    name: "Dr. Sukarmin, M.Pd.",
-                    major: "Pendidikan Kimia",
-                    institution: "Universitas Negeri Surabaya"
+                    name: "Dr. Sukarmin, M.Pd",
+                    major: "Chemistry Education",
+                    institution: "Universitas Negeri Surabaya",
+                    sintaid: "5988947",
+                    src: "./img/invited/sukarmin.jpeg"
                 },
                 {
-                    name: "Dr. Muhammad Nursalman",
-                    major: "Ilmu Komputer",
-                    institution: "Universitas Pendidikan Indonesia"
+                    name: "Dr. Muhamad Nursalman",
+                    major: "Computer Science",
+                    institution: "Universitas Pendidikan Indonesia",
+                    sintaid: "6143456",
+                    src: "./img/invited/nursalman.jpeg"
                 },
                 {
                     name: "Prof. Dr. Wawan Setiawan",
-                    major: "Pendidikan Ilmu Komputer",
-                    institution: "Universitas Pendidikan Indonesia"
-                }
-            ],
-            AMLI: [
-                {
-                    src: "./img/amli/unnes.jpg",
-                    name: "Universitas Negeri Semarang"
-                },
-                {
-                    src: "./img/amli/upi.png",
-                    name: "Universitas Pendidikan Indonesia"
-                },
-                {
-                    src: "./img/amli/uny.png",
-                    name: "Universitas Negeri Yogyakarta"
-                },
-                {
-                    src: "./img/amli/um.png",
-                    name: "Universitas Negeri Malang"
-                },
-                {
-                    src: "./img/amli/undiksha.png",
-                    name: "Universitas Pendidikan Ganesha"
-                },
-                {
-                    src: "./img/amli/unj.png",
-                    name: "Universitas Negeri Jakarta"
-                },
-                {
-                    src: "./img/amli/unimed.jpg",
-                    name: "Universitas Negeri Medan"
-                },
-                {
-                    src: "./img/amli/unp.png",
-                    name: "Universitas Negeri Padang"
-                },
-                {
-                    src: "./img/amli/unima.png",
-                    name: "Universitas Negeri Manado"
-                },
-                {
-                    src: "./img/amli/unm.png",
-                    name: "Universitas Negeri Makassar"
-                },
-                {
-                    src: "./img/amli/ung.jpg",
-                    name: "Universitas Negeri Gorontalo"
-                },
-                {
-                    src: "./img/amli/unesa.jpg",
-                    name: "Universitas Negeri Surabaya"
+                    major: "Computer Science Education",
+                    institution: "Universitas Pendidikan Indonesia",
+                    sintaid: "5977494",
+                    src: "./img/invited/wawan.jpeg"
                 }
             ]
         };

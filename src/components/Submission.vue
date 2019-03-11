@@ -18,49 +18,49 @@
                         <b
                             class="red--text"
                         >(May 1, 2019 for phase 1)</b>. Please take a look at the Important dates in detail
-                        <a
-                            href="#"
-                            target="_blank"
-                        >here</a>. The abstract must contain the following section: introduction/contextual information, aim of the study, method, results, conclusion/contributions, and keywords. The abstract must have no longer than 200 words.
+                        <router-link to="/dates" style="text-decoration: none">here</router-link>. The abstract must contain the following sections: introduction/contextual information, aim of the study, method, results, conclusion/contributions, and keywords. The abstract must have no longer than 200 words.
                     </p>
                     <h3 display-2 class="red--text">[IMPORTANT]&nbsp;</h3>
                     <p>
-                        To submit an abstract, authors must register first (
-                        <a
-                            href="http://aasec.conference.upi.edu/2019/submission/"
+                        To submit an abstract, authors must register first (<a
+                            href="http://msceis2019.upiconf.org/kfz/"
                             target="_blank"
-                        >click here</a>). Then they can submit their abstracts by logging in to this site (menu “
-                        <a
-                            href="http://aasec.conference.upi.edu/2019/submission/"
+                            style="text-decoration: none"
+                        >click here</a>). Then they can submit their abstracts by logging in to this site (menu “<a
+                            href="http://msceis2019.upiconf.org/kfz/"
                             target="_blank"
+                            style="text-decoration: none"
                         >Submission System</a>” then “Login”). The submitted abstracts will be selected for presentation. The manuscripts (full papers) should be submitted only after the abstracts are accepted. The paper must be submitted
                         <b
                             class="teal--text"
                         >two weeks</b> after the conference day
-                        <b class="red--text">(July 1, 2019 for Phase 1)</b>. Please go to “
-                        <a
-                            href="http://aasec.conference.upi.edu/2019/submission/"
+                        <b class="red--text">(July 1, 2019 for Phase 1)</b>. Please go to “<a
+                            href="http://msceis2019.upiconf.org/kfz/"
                             target="_blank"
-                        >Submission System</a>” menu then “
-                        <a
-                            href="http://aasec.conference.upi.edu/2019/submission/"
+                            style="text-decoration: none"
+                        >Submission System</a>” menu then “<a
+                            href="http://msceis2019.upiconf.org/kfz/"
                             target="_blank"
+                            style="text-decoration: none"
                         >Login</a>” to submit the full paper.
                     </p>
                     <br>
-                    <span class="title">Registration Fee</span>
+                    <h1 display-4 class="primary--text">Registration Fee</h1>
                     <h3 display-2 class="red--text">[IMPORTANT]&nbsp;</h3>
                     <p>
-                        After making the payment, author
+                        After making the payment, authors
                         <b class="red--text">MUST</b> upload the transfer proof via this website
-                        <b class="red--text">(NOT Email)</b>. Author can upload by logging in to our
+                        <b class="red--text">(NOT Email)</b>. Authors can upload by logging in to our
                         <a
-                            href="http://aasec.conference.upi.edu/2019/submission/"
+                            href="http://msceis2019.upiconf.org/kfz/"
                             target="_blank"
+                            style="text-decoration: none"
                         >Submission System</a>. Payment receipt can be downloaded directly from your account once your payment is confirmed by the committee.
                     </p>
                     <br>
-                    <v-container grid-list-sm>
+                    <h3 display-2 class="text-xs-center">Registration Fee</h3>
+                    <h3 display-2 v-if="checkWidth == false">Please use landscape mode and reload the page to view this content on your phone.</h3>
+                    <v-container fluid v-else>
                         <v-layout class="text-xs-justify">
                             <v-flex xs2>
                                 <v-layout column>
@@ -70,17 +70,18 @@
                                     <v-flex xs2>Oral Presenter</v-flex>
                                     <v-flex xs2>Accompany Person</v-flex>
                                 </v-layout>
-                                <br>
+                                
                                 <v-layout column class="hidden-md-and-up">
-                                    <v-flex xs2>&nbsp;</v-flex>
+                                    <v-flex xs2 class="hidden-xs-only">&nbsp;</v-flex>
                                     <v-flex xs2>&nbsp;</v-flex>
                                     <v-flex xs2>&nbsp;</v-flex>
                                     <v-flex xs2>Oral Presenter</v-flex>
                                     <v-flex xs2>Accompany Person</v-flex>
                                 </v-layout>
                             </v-flex>
+                            <v-flex xs10 sm10 md10 lg10 xl10>
                             <v-layout v-bind="checkSize">
-                                <v-flex xs10 sm10 md5>
+                                <v-flex xs12>
                                     <v-layout column>
                                         <v-flex xs12>
                                             <b>Early Bird</b>
@@ -117,9 +118,10 @@
                                         </v-flex>
                                     </v-layout>
                                 </v-flex>
-                                <br>
-                                <br>
-                                <v-flex xs10 sm10 md5>
+                                <br class="hidden-sm-and-up">
+                                <br class="hidden-sm-and-up">
+                                <v-flex xs12>
+                                    <br class="hidden-md-and-up">
                                     <v-layout column>
                                         <v-flex xs12>
                                             <b>Regular (Until September 25, 2019)</b>
@@ -148,10 +150,7 @@
                                         </v-flex>
                                         <v-flex xs12>
                                             <v-layout row>
-                                                <v-flex xs3>600.000
-                                                    <br>
-                                                    <br>
-                                                </v-flex>
+                                                <v-flex xs3>600.000</v-flex>
                                                 <v-flex xs3>600.000</v-flex>
                                                 <v-flex xs3>50</v-flex>
                                                 <v-flex xs3>50</v-flex>
@@ -160,6 +159,7 @@
                                     </v-layout>
                                 </v-flex>
                             </v-layout>
+                            </v-flex>
                         </v-layout>
                         <v-layout>
                             <v-flex xs2>UPI Presenter</v-flex>
@@ -190,6 +190,7 @@
 <script>
 export default {
     data: () => ({
+        width: 0,
         itemsBc: [
             {
                 text: "Home",
@@ -208,6 +209,14 @@ export default {
             const binding = {};
             if (this.$vuetify.breakpoint.smAndDown) binding.column = true;
             return binding;
+        },
+        checkWidth(){
+            if(window.innerWidth >= 720){
+                return true;
+            }
+            else{
+                return false;
+            }
         }
     }
 };
