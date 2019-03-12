@@ -84,7 +84,7 @@
                                 <v-flex xs12>
                                     <v-layout column>
                                         <v-flex xs12>
-                                            <b>Early Bird</b>
+                                            <b>Early Bird (Until August 10, 2019)</b>
                                         </v-flex>
                                         <v-flex xs12>
                                             <v-layout row>

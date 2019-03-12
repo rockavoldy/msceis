@@ -82,7 +82,9 @@
                             <li>
                                 <b>From Soekarno-Hatta Airport, Jakarta</b>
                             </li>If you have landed at Soekarno-Hatta Airport, you should use one of the following transportation to
-                            <a href="https://www.google.co.id/maps/place/Bandung">Bandung</a>:
+                            <a
+                                href="https://www.google.co.id/maps/place/Bandung"
+                            >Bandung</a>:
                             <ol>
                                 <li>X-Trans Travel</li>Cost : IDR 150.000
                                 <li>Cipaganti Travel</li>Cost : IDR 120.000
@@ -153,13 +155,13 @@ export default {
         ],
         items: [
             {
-                src: "./img/carousels/alun1.jpg"
+                src: "./img/venue/mercure1.jpg"
             },
             {
-                src: "./img/carousels/chicago1.jpg"
+                src: "./img/venue/mercure2.jpg"
             },
             {
-                src: "./img/carousels/la1.jpg"
+                src: "./img/venue/mercure3.jpg"
             }
         ]
     })
