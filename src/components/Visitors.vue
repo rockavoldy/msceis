@@ -10,10 +10,9 @@
                     </v-breadcrumbs>
                 </v-card>
                 <br>
-                <p>{{visitors}}</p>
                 <v-layout justify-center text-xs-center>
                     <v-flex xs6 sm4 md4 lg3 xl2>
-                        <h1 display-4 class="primary--text">{{visitors.rows.rows}}</h1>
+                        <h1 display-4 class="primary--text">{{visitors.rows.rows}}&nbsp;Visitors</h1>
                         <h2 display-3 class="primary--text">5 Last Visitors</h2>
                         <h4 class="subheading mb-2">They are from:</h4>
                         <v-layout justify-center column text-xs-left>
