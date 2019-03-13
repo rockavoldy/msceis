@@ -67,6 +67,11 @@ export default new Router({
       path: "/amli",
       name: "AMLI",
       component: () => import("./views/AMLI.vue")
+    },
+    {
+      path: "/visitors",
+      name: "Visitors",
+      component: () => import("./views/Visitors.vue")
     }
   ]
 });

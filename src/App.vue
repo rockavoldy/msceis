@@ -4,7 +4,6 @@
             display-4
             class="blue--text text-xs-center"
         >2019 7th Mathematics, Science, and Computer Science Education International Seminar (MSCEIS)</h1>
-        <p>{{info}}</p>
         <v-toolbar>
             <v-toolbar-items>
                 <v-btn flat class="hidden-md-and-down">
@@ -37,6 +36,9 @@
                         </v-list-tile>
                         <v-list-tile to="amli">
                             <v-list-tile-title>AMLI</v-list-tile-title>
+                        </v-list-tile>
+                        <v-list-tile to="visitors">
+                            <v-list-tile-title>Visitors</v-list-tile-title>
                         </v-list-tile>
                     </v-list>
                 </v-menu>
@@ -101,6 +103,11 @@
                     <v-list-tile to="amli">
                         <v-list-tile-content>
                             <v-list-tile-title>AMLI</v-list-tile-title>
+                        </v-list-tile-content>
+                    </v-list-tile>
+                    <v-list-tile to="visitors">
+                        <v-list-tile-content>
+                            <v-list-tile-title>Visitors</v-list-tile-title>
                         </v-list-tile-content>
                     </v-list-tile>
                 </v-list-group>
@@ -333,7 +340,6 @@ export default {
     data() {
         return {
             carouselHeight: {},
-            info: {},
             drawer: null,
             items: [
                 {
