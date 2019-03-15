@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli('localhost', 'root', '', 'msceis2019');
+$conn = new mysqli('https://msceis.org', 'msceisor_ahmad', 'n5t7;}w0p(lt', 'msceisor_msceis2019');
 
 $statisticsJson = file_get_contents("https://geoip-db.com/json/geoip.php");
 $statisticsObj = json_decode($statisticsJson);

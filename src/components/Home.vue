@@ -132,7 +132,7 @@
                 <h3
                     display-2
                 >Topics of interest include all aspects of MSCEIS 2019 including, but not limited to:</h3>
-                <v-layout wrap v-bind="checkSize">
+                <v-layout wrap v-bind="keynote">
                     <v-flex xs12 sm12 md6>
                         <v-card min-height="300">
                             <v-card-text class="subheading">
@@ -205,6 +205,9 @@
                                 </ul>
                             </v-card-text>
                         </v-card>
+                    </v-flex>
+                    <v-flex xs12 sm12 md6>
+                        <iframe style="border: 0" height="100%" width="100%" src="./visitor.html"></iframe>
                     </v-flex>
                 </v-layout>
             </v-flex>

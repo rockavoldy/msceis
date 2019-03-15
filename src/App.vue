@@ -37,9 +37,6 @@
                         <v-list-tile to="amli">
                             <v-list-tile-title>AMLI</v-list-tile-title>
                         </v-list-tile>
-                        <v-list-tile to="visitors">
-                            <v-list-tile-title>Visitors</v-list-tile-title>
-                        </v-list-tile>
                     </v-list>
                 </v-menu>
                 <v-btn flat to="papers">
@@ -103,11 +100,6 @@
                     <v-list-tile to="amli">
                         <v-list-tile-content>
                             <v-list-tile-title>AMLI</v-list-tile-title>
-                        </v-list-tile-content>
-                    </v-list-tile>
-                    <v-list-tile to="visitors">
-                        <v-list-tile-content>
-                            <v-list-tile-title>Visitors</v-list-tile-title>
                         </v-list-tile-content>
                     </v-list-tile>
                 </v-list-group>
