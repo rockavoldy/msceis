@@ -16,7 +16,7 @@
                     <ul>
                         <li>Abstract Submission: May 1, 2019</li>
                         <li>Abstract Notification/Acceptance: May 15, 2019</li>
-                        <li>Full Paper: July 1, 2019</li>
+                        <li>Full Paper Submission: July 1, 2019</li>
                         <li>Full Paper Notification/Acceptance: August 1, 2019</li>
                         <li>Deadline for Camera Ready Paper: August 10, 2019</li>
                     </ul>
@@ -26,7 +26,7 @@
                     <ul>
                         <li>Abstract Submission: July 1, 2019</li>
                         <li>Abstract Notification/Acceptance: July 15, 2019</li>
-                        <li>Full Paper: August 30, 2019</li>
+                        <li>Full Paper Submission: August 30, 2019</li>
                         <li>Full Paper Notification/Acceptance: September 15, 2019</li>
                         <li>Deadline for Camera Ready Paper: September 25, 2019</li>
                     </ul>

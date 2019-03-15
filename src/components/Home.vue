@@ -2,33 +2,35 @@
     <v-container grid-list-md>
         <v-layout>
             <v-flex>
-                <h2 display-3 class="text-xs-center primary--text">Welcome to MSCEIS 2019</h2>
-                <p class="subheading text-xs-justify">
-                    Mathematics, Science, and Computer Science Education International Seminar (MSCEIS) 2019 is an annual conference which held by many domestic and overseas universities. It is held by the Faculty of Mathematics and Natural Science Education, Universitas Pendidikan Indonesia (UPI) and the collaboration with 12 University associated in Asosiasi MIPA LPTK Indonesia (AMLI) consisting of
-                    Universitas Negeri Semarang (UNNES), Universitas Pendidikan Indonesia (UPI), Universitas Negeri Yogyakarta (UNY), Universitas Negeri Malang (UM), Universitas Negeri Jakarta (UNJ), Universitas Negeri Medan (UNIMED), Universitas Negeri Padang (UNP), Universitas Negeri Manado (UNIMA), Universitas Negeri Makassar (UNM), Universitas Pendidikan Ganesha (UNDHIKSA), Universitas Negeri Gorontalo (UNG), and Universitas Negeri Surabaya (UNESA).
-                </p>
-                <p class="subheading text-xs-justify">
-                    In this year, MSCEIS 2019 takes the following theme:
-                    <i class="green--text">
-                        <b>"Mathematics, Science, and Computer Science Education for Addressing Challenges and Implementations of Revolution-Industry 4.0"</b>
-                    </i>. It will be held on October 12, 2019 in Bandung, West Java, Indonesia.
-                </p>
-                <p
-                    class="subheading text-xs-justify"
-                >Bandung is the capital of West Java province in Indonesia and Indonesia's fourth largest city after Jakarta, Surabaya and Medan, make it the third largest city by population, with over 2.4 million, and Greater Bandung made up of 2 municipalities and 38 districts, making it the nation's 2nd largest metropolitan area with 6,965,655 inhabitants at the 2010 census. Located 768 metres (2,520 ft) above sea level, approximately 140 kilometres (87 miles) south east of Jakarta, Bandung has cooler temperatures year-round than most other Indonesian cities. The city lies on a river basin surrounded by volcanic mountains. This topography provides a natural defense system, which was the primary reason for the Dutch East Indies government's plan to move the colony capital from Batavia (modern-day Jakarta) to Bandung.</p>
-                <p
-                    class="subheading text-xs-justify"
-                >Significant tourist sites near Bandung include the Tangkuban Prahu volcano crater to the north, the striking Kawah Putih volcano lake, and Patenggang Lake, a lake surrounded by tea plantations about 50 kilometres (31 miles) to the south of the city.</p>
-                <p
-                    class="subheading text-xs-justify"
-                >All accepted and presented in the conference will be published in American Institute of Physics (AIP) and international reputational journals (e.g., Indonesian Journal of Science and Technology (IJOST)) that are indexed by Scopus.</p>
+                <h1 display-4 class="mb-3 mt-3 text-xs-center primary--text">Welcome to MSCEIS 2019</h1>
+                <div>
+                    <p class="subheading text-xs-justify">
+                        Mathematics, Science, and Computer Science Education International Seminar (MSCEIS) 2019 is an annual conference which held by many domestic and overseas universities. It is held by the Faculty of Mathematics and Natural Science Education, Universitas Pendidikan Indonesia (UPI) and the collaboration with 12 University associated in Asosiasi MIPA LPTK Indonesia (AMLI) consisting of
+                        Universitas Negeri Semarang (UNNES), Universitas Pendidikan Indonesia (UPI), Universitas Negeri Yogyakarta (UNY), Universitas Negeri Malang (UM), Universitas Negeri Jakarta (UNJ), Universitas Negeri Medan (UNIMED), Universitas Negeri Padang (UNP), Universitas Negeri Manado (UNIMA), Universitas Negeri Makassar (UNM), Universitas Pendidikan Ganesha (UNDHIKSA), Universitas Negeri Gorontalo (UNG), and Universitas Negeri Surabaya (UNESA).
+                    </p>
+                    <p class="subheading text-xs-justify">
+                        In this year, MSCEIS 2019 takes the following theme:
+                        <i class="green--text">
+                            <b>"Mathematics, Science, and Computer Science Education for Addressing Challenges and Implementations of Revolution-Industry 4.0"</b>
+                        </i>. It will be held on October 12, 2019 in Bandung, West Java, Indonesia.
+                    </p>
+                    <p
+                        class="subheading text-xs-justify"
+                    >Bandung is the capital of West Java province in Indonesia and Indonesia's fourth largest city after Jakarta, Surabaya and Medan, make it the third largest city by population, with over 2.4 million, and Greater Bandung made up of 2 municipalities and 38 districts, making it the nation's 2nd largest metropolitan area with 6,965,655 inhabitants at the 2010 census. Located 768 metres (2,520 ft) above sea level, approximately 140 kilometres (87 miles) south east of Jakarta, Bandung has cooler temperatures year-round than most other Indonesian cities. The city lies on a river basin surrounded by volcanic mountains. This topography provides a natural defense system, which was the primary reason for the Dutch East Indies government's plan to move the colony capital from Batavia (modern-day Jakarta) to Bandung.</p>
+                    <p
+                        class="subheading text-xs-justify"
+                    >Significant tourist sites near Bandung include the Tangkuban Prahu volcano crater to the north, the striking Kawah Putih volcano lake, and Patenggang Lake, a lake surrounded by tea plantations about 50 kilometres (31 miles) to the south of the city.</p>
+                    <p
+                        class="subheading text-xs-justify"
+                    >All accepted and presented in the conference will be published in American Institute of Physics (AIP) and international reputational journals (e.g., Indonesian Journal of Science and Technology (IJOST)) that are indexed by Scopus.</p>
+                </div>
             </v-flex>
         </v-layout>
         <v-layout mt-3>
             <v-flex>
                 <v-layout justify-center text-xs-center>
                     <v-flex xs12 xs8 sm6 md4 mb-3>
-                        <h4 class="display-1">Keynote Speakers</h4>
+                        <h4 class="display-1 primary--text mt-3 font-weight-medium">Keynote Speakers</h4>
                     </v-flex>
                 </v-layout>
                 <v-layout v-bind="keynote">
@@ -50,7 +52,7 @@
                                 </v-flex>
                             </v-layout>
                         </v-card>
-                    </v-flex>&nbsp;
+                    </v-flex>&nbsp;&nbsp;&nbsp;&nbsp;
                     <v-flex xs12 md6>
                         <v-card min-height="260" to="/speakers" class="mb-2">
                             <v-layout>
@@ -72,22 +74,22 @@
                         </v-card>
                     </v-flex>
                 </v-layout>
-                <v-layout justify-center text-xs-center>
+                <v-layout justify-center text-xs-center mt-4>
                     <v-flex xs12 xs8 sm6 md4 mb-3 mt-4>
                         <h4 class="display-1">Invited Speakers</h4>
                     </v-flex>
                 </v-layout>
                 <v-layout v-bind="keynote" text-xs-center text-sm-left>
                     <v-flex xs12 md6>
-                        <v-card min-height="260">
-                            <v-carousel hide-delimiters height="260" light>
+                        <v-card min-height="200">
+                            <v-carousel hide-delimiters height="200" light>
                                 <v-carousel-item v-for="(item, i) in invited1" :key="i">
                                     <v-layout>
                                         <v-responsive height="100%" class="hidden-xs-only">
-                                            <v-img :src="item.src" height="265" width="200"></v-img>
+                                            <v-img :src="item.src" height="205" width="160"></v-img>
                                         </v-responsive>
                                         <v-flex xs12 sm7 md7 lg7 xl9>
-                                            <v-card-text class="mt-5">
+                                            <v-card-text class="mt-3">
                                                 <div class="headline">{{item.name}}</div>
                                                 <div class="subheading">{{item.major}}</div>
                                                 <div class="body-1">{{item.institution}}</div>
@@ -98,17 +100,17 @@
                                 </v-carousel-item>
                             </v-carousel>
                         </v-card>
-                    </v-flex>
+                    </v-flex>&nbsp;&nbsp;&nbsp;&nbsp;
                     <v-flex xs12 md6>
-                        <v-card min-height="260">
-                            <v-carousel hide-delimiters height="260" light>
+                        <v-card min-height="200">
+                            <v-carousel hide-delimiters height="200" light>
                                 <v-carousel-item v-for="(item, i) in invited2" :key="i">
                                     <v-layout>
                                         <v-responsive height="100%" class="hidden-xs-only">
-                                            <v-img :src="item.src" height="265" width="200"></v-img>
+                                            <v-img :src="item.src" height="205" width="160"></v-img>
                                         </v-responsive>
                                         <v-flex xs12 sm7 md7 lg7 xl9>
-                                            <v-card-text class="mt-5">
+                                            <v-card-text class="mt-3">
                                                 <div class="headline">{{item.name}}</div>
                                                 <div class="subheading">{{item.major}}</div>
                                                 <div class="body-1">{{item.institution}}</div>
@@ -121,15 +123,16 @@
                         </v-card>
                     </v-flex>
                 </v-layout>
+                <br>
                 <v-layout justify-center text-xs-center>
                     <v-flex xs12 xs8 sm6 md4 mb-3 mt-4>
-                        <h4 class="display-1">Scope</h4>
+                        <h4 class="display-1">Focus and Scope</h4>
                     </v-flex>
                 </v-layout>
                 <h3
                     display-2
                 >Topics of interest include all aspects of MSCEIS 2019 including, but not limited to:</h3>
-                <v-layout wrap v-bind="checkSize">
+                <v-layout wrap v-bind="keynote">
                     <v-flex xs12 sm12 md6>
                         <v-card min-height="300">
                             <v-card-text class="subheading">
@@ -202,6 +205,9 @@
                                 </ul>
                             </v-card-text>
                         </v-card>
+                    </v-flex>
+                    <v-flex xs12 sm12 md6>
+                        <iframe style="border: 0" height="100%" width="100%" src="./visitor.html"></iframe>
                     </v-flex>
                 </v-layout>
             </v-flex>

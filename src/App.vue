@@ -34,6 +34,9 @@
                         <v-list-tile to="scope">
                             <v-list-tile-title>Scope</v-list-tile-title>
                         </v-list-tile>
+                        <v-list-tile to="amli">
+                            <v-list-tile-title>AMLI</v-list-tile-title>
+                        </v-list-tile>
                     </v-list>
                 </v-menu>
                 <v-btn flat to="papers">
@@ -54,7 +57,7 @@
                 <v-btn flat to="#">
                     <span>Attractions</span>
                 </v-btn>
-                <v-btn flat to="#">
+                <v-btn flat to="contact">
                     <span>Contact</span>
                 </v-btn>
             </v-toolbar-items>
@@ -94,6 +97,11 @@
                             <v-list-tile-title>Scope</v-list-tile-title>
                         </v-list-tile-content>
                     </v-list-tile>
+                    <v-list-tile to="amli">
+                        <v-list-tile-content>
+                            <v-list-tile-title>AMLI</v-list-tile-title>
+                        </v-list-tile-content>
+                    </v-list-tile>
                 </v-list-group>
                 <v-list-tile to="papers">
                     <v-list-tile-content>
@@ -125,7 +133,7 @@
                         <v-list-tile-title>Attractions</v-list-tile-title>
                     </v-list-tile-content>
                 </v-list-tile>
-                <v-list-tile to="#">
+                <v-list-tile to="contact">
                     <v-list-tile-content>
                         <v-list-tile-title>Contact</v-list-tile-title>
                     </v-list-tile-content>
@@ -194,8 +202,11 @@
                             <b>Contact Us</b>
                         </div>
                         <div class="subheading white--text">
-                            Faculty of Mathematics and Natural Sciences Education 2nd Floor of FPMIPA A (JICA) Building Universitas Pendidikan Indonesia
-                            <br>Setiabudhi Street no.229, Bandung, West Java, Indonesia
+                            Faculty of Mathematics and Natural Sciences Education,
+                            <br>
+                            <b>Universitas Pendidikan Indonesia</b>
+                            <br>2nd Floor of FPMIPA A (JICA) Building
+                            <br>Jl. Setiabudhi, No. 229, Bandung, West Java, Indonesia
                             <br>
                             <b>Website:&nbsp;</b>
                             <a
@@ -216,7 +227,7 @@
                             <b>CP:&nbsp;</b>Eka Cahya Prima
                             <br>
                             <b>Phone:&nbsp;</b>
-                            (+62)&nbsp;812-3450-9109
+                            (+62)&nbsp;857-9324-5289
                         </div>
                     </v-card-text>
                 </v-flex>
@@ -225,46 +236,84 @@
                         <div class="title mb-3 white--text">
                             <b>Supported By</b>
                         </div>
-                        <v-layout>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/unnes.png" max-height="70" contain></v-img>
+                        <v-layout v-if="this.$vuetify.breakpoint.smAndUp">
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unnes.png" max-height="60" contain></v-img>
                             </v-flex>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/upi.png" max-height="70" contain></v-img>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/upi.png" max-height="60" contain></v-img>
                             </v-flex>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/uny.png" max-height="70" contain></v-img>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/uny.png" max-height="60" contain></v-img>
                             </v-flex>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/um.png" max-height="70" contain></v-img>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/um.png" max-height="60" contain></v-img>
                             </v-flex>
-                        </v-layout>
-                        <v-layout mt-4>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/undiksha.png" max-height="70" contain></v-img>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/undiksha.png" max-height="60" contain></v-img>
                             </v-flex>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/unj.png" max-height="70" contain></v-img>
-                            </v-flex>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/unimed.png" max-height="70" contain></v-img>
-                            </v-flex>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/unp.png" max-height="70" contain></v-img>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unj.png" max-height="60" contain></v-img>
                             </v-flex>
                         </v-layout>
-                        <v-layout mt-4>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/unima.png" max-height="70" contain></v-img>
+                        <v-layout mt-5 v-if="this.$vuetify.breakpoint.smAndUp">
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unimed.png" max-height="60" contain></v-img>
                             </v-flex>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/unm.png" max-height="70" contain></v-img>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unp.png" max-height="60" contain></v-img>
                             </v-flex>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/ung.png" max-height="70" contain></v-img>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unima.png" max-height="60" contain></v-img>
                             </v-flex>
-                            <v-flex xs4>
-                                <v-img src="./img/amli/unesa.png" max-height="70" contain></v-img>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unm.png" max-height="60" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/ung.png" max-height="60" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unesa.png" max-height="60" contain></v-img>
+                            </v-flex>
+                        </v-layout>
+                        <v-layout v-if="this.$vuetify.breakpoint.xs">
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unnes.png" max-height="46" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/upi.png" max-height="46" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/uny.png" max-height="46" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/um.png" max-height="46" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/undiksha.png" max-height="46" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unj.png" max-height="46" contain></v-img>
+                            </v-flex>
+                        </v-layout>
+                        <v-layout mt-3 v-if="this.$vuetify.breakpoint.xs">
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unimed.png" max-height="46" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unp.png" max-height="46" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unima.png" max-height="46" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unm.png" max-height="46" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/ung.png" max-height="46" contain></v-img>
+                            </v-flex>
+                            <v-flex xs2>
+                                <v-img src="./img/amli/unesa.png" max-height="46" contain></v-img>
                             </v-flex>
                         </v-layout>
 

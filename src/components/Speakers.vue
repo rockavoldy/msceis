@@ -12,7 +12,7 @@
                 <br>
                 <v-layout justify-center text-xs-center>
                     <v-flex xs12 xs8 sm6 md4 mb-3>
-                        <h4 class="display-1">Keynote Speakers</h4>
+                        <h4 class="display-1 primary--text">Keynote Speakers</h4>
                     </v-flex>
                 </v-layout>
                 <v-layout column>
@@ -71,27 +71,28 @@
                         </v-card>
                     </v-flex>
                 </v-layout>
+                <br>
                 <v-layout justify-center text-xs-center>
                     <v-flex xs12 xs8 sm6 md4 mb-3 mt-4>
                         <h4 class="display-1">Invited Speakers</h4>
                     </v-flex>
                 </v-layout>
-                <v-layout column>
-                    <v-flex xs12 v-for="(item, i) in invited" :key="i" mb-3>
-                        <v-card min-height="300">
+                <v-layout wrap>
+                    <v-flex xs12 sm6 md6 lg6 xl6 v-for="(item, i) in invited" :key="i" mb-3>
+                        <v-card min-height="200">
                             <v-layout>
                                 <v-responsive height="100%" class="hidden-xs-only">
-                                    <v-img :src="item.src" height="300" width="220"></v-img>
+                                    <v-img :src="item.src" height="230" width="160"></v-img>
                                 </v-responsive>
                                 <v-card-text>
                                     <v-flex xs12 sm12 md12 lg12 xl12>
-                                        <div class="title">{{item.name}}</div>
-                                        <div class="subheading">{{item.major}}, {{item.institution}}</div>
+                                        <div class="subheading font-weight-medium">{{item.name}}</div>
+                                        <div class="body-2">{{item.major}}, {{item.institution}}</div>
                                     </v-flex>
                                     <v-flex>
-                                        <div class="title">Tentative Title:</div>
+                                        <div class="body-2">Tentative Title:</div>
                                         <p body-1>{{item.title}}</p>
-                                        <div class="title">Abstract:</div>
+                                        <div class="body-2">Abstract:</div>
                                         <p body-1>{{item.abstract}}</p>
                                     </v-flex>
                                 </v-card-text>

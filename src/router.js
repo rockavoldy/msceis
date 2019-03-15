@@ -52,16 +52,26 @@ export default new Router({
       path: "/visa",
       name: "Visa",
       component: () => import("./views/Visa.vue")
-    }
+    },
     // {
     //   path: "/attractions",
     //   name: "Attractions",
     //   component: () => import("./views/Attractions.vue")
     // }
-    // {
-    //   path: "/contact",
-    //   name: "Contact",
-    //   component: () => import("./views/Contact.vue")
-    // }
+    {
+      path: "/contact",
+      name: "Contact",
+      component: () => import("./views/Contact.vue")
+    },
+    {
+      path: "/amli",
+      name: "AMLI",
+      component: () => import("./views/AMLI.vue")
+    },
+    {
+      path: "/visitors",
+      name: "Visitors",
+      component: () => import("./views/Visitors.vue")
+    }
   ]
 });
