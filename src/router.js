@@ -53,11 +53,11 @@ export default new Router({
       name: "Visa",
       component: () => import("./views/Visa.vue")
     },
-    // {
-    //   path: "/attractions",
-    //   name: "Attractions",
-    //   component: () => import("./views/Attractions.vue")
-    // }
+    {
+      path: "/attractions",
+      name: "Attractions",
+      component: () => import("./views/Attractions.vue")
+    },
     {
       path: "/contact",
       name: "Contact",

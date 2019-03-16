@@ -54,7 +54,7 @@
                 <v-btn flat to="visa">
                     <span>Visa Information</span>
                 </v-btn>
-                <v-btn flat to="#">
+                <v-btn flat to="attractions">
                     <span>Attractions</span>
                 </v-btn>
                 <v-btn flat to="contact">
@@ -128,7 +128,7 @@
                         <v-list-tile-title>Visa Information</v-list-tile-title>
                     </v-list-tile-content>
                 </v-list-tile>
-                <v-list-tile to="#">
+                <v-list-tile to="attractions">
                     <v-list-tile-content>
                         <v-list-tile-title>Attractions</v-list-tile-title>
                     </v-list-tile-content>
