@@ -14,62 +14,62 @@ export default new Router({
       component: Home
     },
     {
-      path: "committee",
+      path: "/committee",
       name: "committee",
       component: () => import("./views/Committee.vue")
     },
     {
-      path: "speakers",
+      path: "/speakers",
       name: "Speakers",
       component: () => import("./views/Speakers.vue")
     },
     {
-      path: "scope",
+      path: "/scope",
       name: "Scope",
       component: () => import("./views/Scope.vue")
     },
     {
-      path: "papers",
+      path: "/papers",
       name: "Papers",
       component: () => import("./views/Papers.vue")
     },
     {
-      path: "submission",
+      path: "/submission",
       name: "Submission",
       component: () => import("./views/Submission.vue")
     },
     {
-      path: "dates",
+      path: "/dates",
       name: "Dates",
       component: () => import("./views/Dates.vue")
     },
     {
-      path: "venue",
+      path: "/venue",
       name: "Venue",
       component: () => import("./views/Venue.vue")
     },
     {
-      path: "visa",
+      path: "/visa",
       name: "Visa",
       component: () => import("./views/Visa.vue")
     },
     {
-      path: "attractions",
+      path: "/attractions",
       name: "Attractions",
       component: () => import("./views/Attractions.vue")
     },
     {
-      path: "contact",
+      path: "/contact",
       name: "Contact",
       component: () => import("./views/Contact.vue")
     },
     {
-      path: "amli",
+      path: "/amli",
       name: "AMLI",
       component: () => import("./views/AMLI.vue")
     },
     {
-      path: "visitors",
+      path: "/visitors",
       name: "Visitors",
       component: () => import("./views/Visitors.vue")
     }
