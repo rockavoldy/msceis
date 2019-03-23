@@ -96,7 +96,7 @@
                                                 href="https://www.icaseonline.net/ste_centers.html"
                                                 target="_blank"
                                                 style="text-decoration: none"
-                                            >International College Suan Sunandha Rajabhat University</a>, Thailand
+                                            >Suan Sunandha Rajabhat University</a>, Thailand
                                         </div>
                                     </v-flex>
                                     <v-flex>
