@@ -72,6 +72,11 @@ export default new Router({
       path: "/visitors",
       name: "Visitors",
       component: () => import("./views/Visitors.vue")
+    },
+    {
+      path: "/previous",
+      name: "Previous Conferences",
+      component: () => import("./views/PrevConferences.vue")
     }
   ]
 });
