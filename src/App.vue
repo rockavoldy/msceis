@@ -220,6 +220,12 @@
                             <a
                                 style="color: white"
                                 target="_blank"
+                                href="http://msceis.event.upi.edu/"
+                            >http://msceis.event.upi.edu/</a>
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a
+                                style="color: white"
+                                target="_blank"
                                 href="http://www.upi.edu/"
                             >http://www.upi.edu/</a>
                             <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
