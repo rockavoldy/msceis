@@ -22,7 +22,7 @@
                     >Significant tourist sites near Bandung include the Tangkuban Prahu volcano crater to the north, the striking Kawah Putih volcano lake, and Patenggang Lake, a lake surrounded by tea plantations about 50 kilometres (31 miles) to the south of the city.</p>
                     <p
                         class="subheading text-xs-justify"
-                    >All accepted and presented in the conference will be published in American Institute of Physics (AIP) and international reputational journals (e.g., Indonesian Journal of Science and Technology (IJOST)) that are indexed by Scopus.</p>
+                    >All presented papers will be submitted to publishers that are indexed by Scopus.</p>
                 </div>
             </v-flex>
         </v-layout>
@@ -33,14 +33,18 @@
                         <h4 class="display-1 primary--text mt-3 font-weight-medium">Keynote Speakers</h4>
                     </v-flex>
                 </v-layout>
-                <v-layout v-bind="keynote">
+                <v-layout v-bind="keynote" wrap>
                     <v-flex xs12 md6>
-                        <v-card min-height="260" to="/speakers" class="mb-2">
+                        <v-card height="260" to="/speakers">
                             <v-layout>
-                                <v-responsive height="100%" class="hidden-xs-only">
-                                    <v-img src="./img/keynote/goutam.jpg" height="260" width="200"></v-img>
-                                </v-responsive>
-                                <v-flex xs12>
+                                <v-img
+                                    src="./img/keynote/goutam.jpg"
+                                    height="260"
+                                    width="200"
+                                    position="top"
+                                    class="ml-1"
+                                ></v-img>
+                                <v-flex xs12 sm7 md7 lg8 xl9>
                                     <v-card-title primary-title class="mt-3">
                                         <div>
                                             <div class="headline">Prof. Goutam Chakraborty, Ph.D.</div>
@@ -52,14 +56,18 @@
                                 </v-flex>
                             </v-layout>
                         </v-card>
-                    </v-flex>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </v-flex>
                     <v-flex xs12 md6>
                         <v-card min-height="260" to="/speakers" class="mb-2">
                             <v-layout>
-                                <v-responsive height="100%" class="hidden-xs-only">
-                                    <v-img src="./img/keynote/igusti.jpeg" height="260" width="200"></v-img>
-                                </v-responsive>
-                                <v-flex xs12>
+                                <v-img
+                                    src="./img/keynote/igusti.jpeg"
+                                    height="260"
+                                    width="200"
+                                    position="top"
+                                    class="ml-1"
+                                ></v-img>
+                                <v-flex xs12 sm7 md7 lg8 xl9>
                                     <v-card-title primary-title class="mt-3">
                                         <div>
                                             <div class="headline">Dr. I Gusti Darmawan</div>
@@ -67,6 +75,32 @@
                                             <div class="subheading">The University of Adelaide</div>
                                             <div class="body-1">Science and Mathematics Education</div>
                                             <div class="body-1">Australia</div>
+                                        </div>
+                                    </v-card-title>
+                                </v-flex>
+                            </v-layout>
+                        </v-card>
+                    </v-flex>
+                    <v-flex xs12 md6>
+                        <v-card min-height="260" to="/speakers" class="mb-2">
+                            <v-layout>
+                                <v-img
+                                    src="./img/keynote/janchai.png"
+                                    height="260"
+                                    width="200"
+                                    position="top"
+                                    class="ml-1"
+                                ></v-img>
+                                <v-flex xs12 sm7 md7 lg8 xl9>
+                                    <v-card-title primary-title class="mt-3">
+                                        <div>
+                                            <div class="headline">Prof. Janchai Yingprayoon</div>
+                                            <div class="subheading">International College</div>
+                                            <div
+                                                class="subheading"
+                                            >Suan Sunandha Rajabhat University</div>
+                                            <div class="body-1">Mathematics Education</div>
+                                            <div class="body-1">Thailand</div>
                                         </div>
                                     </v-card-title>
                                 </v-flex>
@@ -84,12 +118,19 @@
                         <v-card min-height="200">
                             <v-carousel hide-delimiters height="200" light>
                                 <v-carousel-item v-for="(item, i) in invited1" :key="i">
-                                    <v-layout>
-                                        <v-responsive height="100%" class="hidden-xs-only">
-                                            <v-img :src="item.src" height="205" width="160"></v-img>
-                                        </v-responsive>
-                                        <v-flex xs12 sm7 md7 lg7 xl9>
-                                            <v-card-text class="mt-3">
+                                    <v-layout align-center justify-center>
+                                        <v-flex sm5 md5 lg4 xl3 class="mt-3">
+                                            <v-img
+                                                :src="item.src"
+                                                height="160"
+                                                width="160"
+                                                style="border-radius: 50%"
+                                                position="top top"
+                                                class="ml-3"
+                                            ></v-img>
+                                        </v-flex>
+                                        <v-flex xs12 sm7 md7 lg8 xl9>
+                                            <v-card-text>
                                                 <div class="headline">{{item.name}}</div>
                                                 <div class="subheading">{{item.major}}</div>
                                                 <div class="body-1">{{item.institution}}</div>
@@ -100,17 +141,24 @@
                                 </v-carousel-item>
                             </v-carousel>
                         </v-card>
-                    </v-flex>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </v-flex>
                     <v-flex xs12 md6>
                         <v-card min-height="200">
                             <v-carousel hide-delimiters height="200" light>
                                 <v-carousel-item v-for="(item, i) in invited2" :key="i">
-                                    <v-layout>
-                                        <v-responsive height="100%" class="hidden-xs-only">
-                                            <v-img :src="item.src" height="205" width="160"></v-img>
-                                        </v-responsive>
-                                        <v-flex xs12 sm7 md7 lg7 xl9>
-                                            <v-card-text class="mt-3">
+                                    <v-layout align-center justify-center>
+                                        <v-flex sm5 md5 lg4 xl3 class="mt-3">
+                                            <v-img
+                                                :src="item.src"
+                                                height="160"
+                                                width="160"
+                                                style="border-radius: 50%"
+                                                position="top top"
+                                                class="ml-3"
+                                            ></v-img>
+                                        </v-flex>
+                                        <v-flex xs12 sm7 md7 lg8 xl9>
+                                            <v-card-text>
                                                 <div class="headline">{{item.name}}</div>
                                                 <div class="subheading">{{item.major}}</div>
                                                 <div class="body-1">{{item.institution}}</div>

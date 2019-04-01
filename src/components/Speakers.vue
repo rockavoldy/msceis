@@ -19,9 +19,13 @@
                     <v-flex xs12 mb-3>
                         <v-card min-height="300">
                             <v-layout>
-                                <v-responsive height="100%" class="hidden-xs-only">
-                                    <v-img src="./img/keynote/goutam.jpg" height="300" width="220"></v-img>
-                                </v-responsive>
+                                <v-img
+                                    src="./img/keynote/goutam.jpg"
+                                    height="300"
+                                    width="220"
+                                    position="top"
+                                    class="ml-1"
+                                ></v-img>
                                 <v-card-text>
                                     <v-flex xs12 sm12 md12 lg12 xl12>
                                         <div class="title">Prof. Goutam Chakraborty, Ph.D.</div>
@@ -43,12 +47,16 @@
                             </v-layout>
                         </v-card>
                     </v-flex>
-                    <v-flex xs12>
+                    <v-flex xs12 mb-3>
                         <v-card min-height="300">
                             <v-layout>
-                                <v-responsive height="100%" class="hidden-xs-only">
-                                    <v-img src="./img/keynote/igusti.jpeg" height="300" width="220"></v-img>
-                                </v-responsive>
+                                <v-img
+                                    src="./img/keynote/igusti.jpeg"
+                                    height="300"
+                                    width="220"
+                                    position="top"
+                                    class="ml-1"
+                                ></v-img>
                                 <v-card-text>
                                     <v-flex xs12 sm12 md12 lg12 xl12>
                                         <div class="title">Dr. I Gusti Darmawan</div>
@@ -58,6 +66,37 @@
                                                 target="_blank"
                                                 style="text-decoration: none"
                                             >The University of Adelaide</a>, Australia
+                                        </div>
+                                    </v-flex>
+                                    <v-flex>
+                                        <div class="title">Tentative Title:</div>
+                                        <p body-1>To Be Announced (TBA)</p>
+                                        <div class="title">Abstract:</div>
+                                        <p body-1>To Be Announced (TBA)</p>
+                                    </v-flex>
+                                </v-card-text>
+                            </v-layout>
+                        </v-card>
+                    </v-flex>
+                    <v-flex xs12>
+                        <v-card min-height="300">
+                            <v-layout>
+                                <v-img
+                                    src="./img/keynote/janchai.png"
+                                    height="300"
+                                    width="220"
+                                    position="top"
+                                    class="ml-1"
+                                ></v-img>
+                                <v-card-text>
+                                    <v-flex xs12 sm12 md12 lg12 xl12>
+                                        <div class="title">Prof. Janchai Yingprayoon</div>
+                                        <div class="subheading">
+                                            <a
+                                                href="https://www.icaseonline.net/ste_centers.html"
+                                                target="_blank"
+                                                style="text-decoration: none"
+                                            >Suan Sunandha Rajabhat University</a>, Thailand
                                         </div>
                                     </v-flex>
                                     <v-flex>
@@ -80,10 +119,17 @@
                 <v-layout wrap>
                     <v-flex xs12 sm6 md6 lg6 xl6 v-for="(item, i) in invited" :key="i" mb-3>
                         <v-card min-height="200">
-                            <v-layout>
-                                <v-responsive height="100%" class="hidden-xs-only">
-                                    <v-img :src="item.src" height="230" width="160"></v-img>
-                                </v-responsive>
+                            <v-layout justify-center align-center>
+                                <v-flex sm5 md5 lg4 xl3>
+                                    <v-img
+                                        :src="item.src"
+                                        height="160"
+                                        width="160"
+                                        style="border-radius: 50%"
+                                        position="top top"
+                                        class="ml-3"
+                                    ></v-img>
+                                </v-flex>
                                 <v-card-text>
                                     <v-flex xs12 sm12 md12 lg12 xl12>
                                         <div class="subheading font-weight-medium">{{item.name}}</div>

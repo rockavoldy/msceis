@@ -37,6 +37,9 @@
                         <v-list-tile to="amli">
                             <v-list-tile-title>AMLI</v-list-tile-title>
                         </v-list-tile>
+                        <v-list-tile to="previous">
+                            <v-list-tile-title>Previous Conferences</v-list-tile-title>
+                        </v-list-tile>
                     </v-list>
                 </v-menu>
                 <v-btn flat to="papers">
@@ -100,6 +103,11 @@
                     <v-list-tile to="amli">
                         <v-list-tile-content>
                             <v-list-tile-title>AMLI</v-list-tile-title>
+                        </v-list-tile-content>
+                    </v-list-tile>
+                    <v-list-tile to="previous">
+                        <v-list-tile-content>
+                            <v-list-tile-title>Previous Conferences</v-list-tile-title>
                         </v-list-tile-content>
                     </v-list-tile>
                 </v-list-group>
@@ -178,8 +186,8 @@
                         </v-card>
                     </v-flex>
                     <v-flex xs12 sm6 md4 lg4 xl4>
-                        <v-card min-height="65" to="#">
-                            <v-card-text class="headline">Previous Conference</v-card-text>
+                        <v-card min-height="65" to="/previous">
+                            <v-card-text class="headline">Previous Conferences</v-card-text>
                         </v-card>
                     </v-flex>
                     <v-flex xs12 sm12 md4 lg4 xl4>
@@ -209,6 +217,12 @@
                             <br>Jl. Setiabudhi, No. 229, Bandung, West Java, Indonesia
                             <br>
                             <b>Website:&nbsp;</b>
+                            <a
+                                style="color: white"
+                                target="_blank"
+                                href="http://msceis.event.upi.edu/"
+                            >http://msceis.event.upi.edu/</a>
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <a
                                 style="color: white"
                                 target="_blank"
