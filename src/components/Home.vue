@@ -22,7 +22,7 @@
                     >Significant tourist sites near Bandung include the Tangkuban Prahu volcano crater to the north, the striking Kawah Putih volcano lake, and Patenggang Lake, a lake surrounded by tea plantations about 50 kilometres (31 miles) to the south of the city.</p>
                     <p
                         class="subheading text-xs-justify"
-                    >All accepted and presented in the conference will be published in American Institute of Physics (AIP) and international reputational journals (e.g., Indonesian Journal of Science and Technology (IJOST)) that are indexed by Scopus.</p>
+                    >All presented papers will be submitted to publishers that are indexed by Scopus.</p>
                 </div>
             </v-flex>
         </v-layout>
