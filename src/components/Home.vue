@@ -116,7 +116,7 @@
                 <v-layout v-bind="keynote" text-xs-center text-sm-left>
                     <v-flex xs12 md6>
                         <v-card min-height="200">
-                            <v-carousel hide-delimiters height="200" light>
+                            <v-carousel hide-delimiters hide-controls height="200" light>
                                 <v-carousel-item v-for="(item, i) in invited1" :key="i">
                                     <v-layout align-center justify-center>
                                         <v-flex sm5 md5 lg4 xl3 class="mt-3">
@@ -144,7 +144,7 @@
                     </v-flex>
                     <v-flex xs12 md6>
                         <v-card min-height="200">
-                            <v-carousel hide-delimiters height="200" light>
+                            <v-carousel hide-delimiters hide-controls height="200" light>
                                 <v-carousel-item v-for="(item, i) in invited2" :key="i">
                                     <v-layout align-center justify-center>
                                         <v-flex sm5 md5 lg4 xl3 class="mt-3">

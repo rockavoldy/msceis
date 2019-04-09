@@ -5,13 +5,16 @@
             class="blue--text text-xs-center"
         >2019 7th Mathematics, Science, and Computer Science Education International Seminar (MSCEIS)</h1>
         <v-toolbar>
+            <v-img src="./img/msceis.png" height="50%" contain class="hidden-sm-and-up"></v-img>
             <v-toolbar-items>
-                <v-btn flat class="hidden-md-and-down">
+                <v-btn flat class="hidden-xs-only">
                     <span class="headline">MSCEIS</span>
+                    <!-- <v-img src="./img/msceis.png"></v-img> -->
                 </v-btn>
-                <v-btn flat to="/" class="hidden-lg-and-up">
-                    <span class="headline">MSCEIS</span>
-                </v-btn>
+                <!-- <v-btn flat to="/" class="hidden-lg-and-up"> -->
+                <!-- <span class="headline">MSCEIS</span> -->
+
+                <!-- </v-btn> -->
             </v-toolbar-items>
             <v-toolbar-items class="hidden-md-and-down">
                 <v-btn flat to="/">
