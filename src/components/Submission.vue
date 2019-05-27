@@ -15,9 +15,12 @@
                     <p>
                         Authors are requested to submit
                         <b class="teal--text">an abstract</b> to the Organizing Committee by
+                        <strike
+                            class="red--text"
+                        >May 1, 2019 for phase 1</strike> 
                         <b
                             class="red--text"
-                        >(May 1, 2019 for phase 1)</b>. Please take a look at the Important dates in detail
+                        > (June 1, 2019 for phase 1 Extended)</b>. Please take a look at the Important dates in detail
                         <router-link to="/dates" style="text-decoration: none">here</router-link>. The abstract must contain the following sections: introduction/contextual information, aim of the study, method, results, conclusion/contributions, and keywords. The abstract must have no longer than 200 words.
                     </p>
                     <h3 display-2 class="red--text">[IMPORTANT]&nbsp;</h3>

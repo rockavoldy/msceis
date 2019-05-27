@@ -163,25 +163,6 @@
                     </v-carousel>
                 </v-responsive>
             </v-flex>
-            <!-- <v-flex class="grid-list-xs text-xs-center" v-if="this.$vuetify.breakpoint.xs">
-                <v-layout fill-height wrap column>
-                    <v-flex xs12 sm6 md4 lg4 xl4>
-                        <v-card min-height="65" to="/submission">
-                            <v-card-text class="headline">Submission & Registration</v-card-text>
-                        </v-card>
-                    </v-flex>
-                    <v-flex xs12 sm6 md4 lg4 xl4>
-                        <v-card min-height="65" to="#">
-                            <v-card-text class="headline">Previous Conference</v-card-text>
-                        </v-card>
-                    </v-flex>
-                    <v-flex xs12 sm12 md4 lg4 xl4>
-                        <v-card min-height="65" to="/contact">
-                            <v-card-text class="headline">Contact</v-card-text>
-                        </v-card>
-                    </v-flex>
-                </v-layout>
-            </v-flex>-->
             <v-flex class="grid-list-xs text-xs-center">
                 <v-layout wrap v-bind="menu">
                     <v-flex xs12 sm6 md6 lg4 xl4>

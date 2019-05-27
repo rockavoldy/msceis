@@ -14,10 +14,11 @@
                     display-3
                 >Topics of interest include all aspects of MSCEIS 2019 including, but not limited to:</h2>
                 <v-layout wrap v-bind="checkSize">
-                    <v-flex xs12 sm12 md6>
+                    <v-flex xs12 sm12 md6 d-flex>
                         <v-card min-height="300">
                             <v-card-text class="subheading">
-                                <p class="title">Pure and Applied Mathematics</p>
+                                <p class="title">Track 1: Pure and Applied Mathematics</p>
+                                <p>Scope: 
                                 <ul>
                                     <li>Algebra</li>
                                     <li>Mathematical Physics</li>
@@ -27,13 +28,15 @@
                                     <li>Dynamical Systems</li>
                                     <li>Combinatorial Mathematics</li>
                                 </ul>
+                                </p>
                             </v-card-text>
                         </v-card>
                     </v-flex>
-                    <v-flex xs12 sm12 md6>
+                    <v-flex xs12 sm12 md6 d-flex-child>
                         <v-card min-height="300">
                             <v-card-text class="subheading">
-                                <p class="title">Science and Technology</p>
+                                <p class="title">Track 2: Science and Technology</p>
+                                <p>Scope: 
                                 <ul>
                                     <li>Material and Biomaterial</li>
                                     <li>Environmental Sciences</li>
@@ -45,13 +48,15 @@
                                     <li>Energy and Catalyst</li>
                                     <li>Instrumentation</li>
                                 </ul>
+                                </p>
                             </v-card-text>
                         </v-card>
                     </v-flex>
-                    <v-flex xs12 sm12 md6>
+                    <v-flex xs12 sm12 md6 d-flex-child>
                         <v-card min-height="320">
                             <v-card-text class="subheading">
-                                <p class="title">Information and Technology</p>
+                                <p class="title">Track 3: Information and Technology</p>
+                                <p>Scope: 
                                 <ul>
                                     <li>Artificial Intelligence</li>
                                     <li>Machine Learning</li>
@@ -64,15 +69,17 @@
                                     <li>Computer Network and Security</li>
                                     <li>Mobile Computing</li>
                                 </ul>
+                                </p>
                             </v-card-text>
                         </v-card>
                     </v-flex>
-                    <v-flex xs12 sm12 md6>
+                    <v-flex xs12 sm12 md6 d-flex>
                         <v-card min-height="320">
                             <v-card-text class="subheading">
                                 <p
                                     class="title"
-                                >Mathematics, Science, and Computer Science Education</p>
+                                >Track 4: Mathematics, Science, and Computer Science Education</p>
+                                <p>Scope: 
                                 <ul>
                                     <li>Curriculum Development</li>
                                     <li>Learning Resources</li>
@@ -84,6 +91,7 @@
                                     <li>Models of Teaching</li>
                                     <li>Educational Technology</li>
                                 </ul>
+                                </p>
                             </v-card-text>
                         </v-card>
                     </v-flex>
