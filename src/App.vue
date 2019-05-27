@@ -5,13 +5,17 @@
             class="blue--text text-xs-center"
         >2019 7th Mathematics, Science, and Computer Science Education International Seminar (MSCEIS)</h1>
         <v-toolbar>
+            <v-img src="./img/msceis.png" height="50%" contain class="hidden-sm-and-up"></v-img>
+            <v-spacer></v-spacer>
             <v-toolbar-items>
-                <v-btn flat class="hidden-md-and-down">
+                <v-btn flat class="hidden-xs-only">
                     <span class="headline">MSCEIS</span>
+                    <!-- <v-img src="./img/msceis.png"></v-img> -->
                 </v-btn>
-                <v-btn flat to="/" class="hidden-lg-and-up">
-                    <span class="headline">MSCEIS</span>
-                </v-btn>
+                <!-- <v-btn flat to="/" class="hidden-lg-and-up"> -->
+                <!-- <span class="headline">MSCEIS</span> -->
+
+                <!-- </v-btn> -->
             </v-toolbar-items>
             <v-toolbar-items class="hidden-md-and-down">
                 <v-btn flat to="/">
@@ -159,38 +163,19 @@
                     </v-carousel>
                 </v-responsive>
             </v-flex>
-            <v-flex class="grid-list-xs text-xs-center" v-if="this.$vuetify.breakpoint.xs">
-                <v-layout fill-height wrap column>
-                    <v-flex xs12 sm6 md4 lg4 xl4>
+            <v-flex class="grid-list-xs text-xs-center">
+                <v-layout wrap v-bind="menu">
+                    <v-flex xs12 sm6 md6 lg4 xl4>
                         <v-card min-height="65" to="/submission">
                             <v-card-text class="headline">Submission & Registration</v-card-text>
                         </v-card>
                     </v-flex>
-                    <v-flex xs12 sm6 md4 lg4 xl4>
-                        <v-card min-height="65" to="#">
-                            <v-card-text class="headline">Previous Conference</v-card-text>
-                        </v-card>
-                    </v-flex>
-                    <v-flex xs12 sm12 md4 lg4 xl4>
-                        <v-card min-height="65" to="/contact">
-                            <v-card-text class="headline">Contact</v-card-text>
-                        </v-card>
-                    </v-flex>
-                </v-layout>
-            </v-flex>
-            <v-flex class="grid-list-xs text-xs-center" v-else>
-                <v-layout fill-height wrap row>
-                    <v-flex xs12 sm6 md4 lg4 xl4>
-                        <v-card min-height="65" to="/submission">
-                            <v-card-text class="headline">Submission & Registration</v-card-text>
-                        </v-card>
-                    </v-flex>
-                    <v-flex xs12 sm6 md4 lg4 xl4>
+                    <v-flex xs12 sm6 md6 lg4 xl4>
                         <v-card min-height="65" to="/previous">
                             <v-card-text class="headline">Previous Conferences</v-card-text>
                         </v-card>
                     </v-flex>
-                    <v-flex xs12 sm12 md4 lg4 xl4>
+                    <v-flex xs12 sm12 md12 lg4 xl4>
                         <v-card min-height="65" to="/contact">
                             <v-card-text class="headline">Contact</v-card-text>
                         </v-card>
@@ -383,6 +368,11 @@ export default {
         checkSize() {
             const binding = {};
             if (this.$vuetify.breakpoint.smAndDown) binding.column = true;
+            return binding;
+        },
+        menu() {
+            const binding = {};
+            if (this.$vuetify.breakpoint.xs) binding.column = true;
             return binding;
         }
     },

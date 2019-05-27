@@ -14,8 +14,10 @@
                 <div class="text-xs-justify subheading">
                     <h3 display-2 class="text-weight-medium">Phase 1</h3>
                     <ul>
-                        <li>Abstract Submission: May 1, 2019</li>
-                        <li>Abstract Notification/Acceptance: May 15, 2019</li>
+                        <li><strike>Abstract Submission: May 1, 2019</strike></li>
+                        <li><strike>Abstract Notification/Acceptance: May 15, 2019</strike></li>
+                        <li>Abstract Submission (Extended): June 1, 2019</li>
+                        <li>Abstract Notification/Acceptance (Extended): June 5, 2019</li>
                         <li>Full Paper Submission: July 1, 2019</li>
                         <li>Full Paper Notification/Acceptance: August 1, 2019</li>
                         <li>Deadline for Camera Ready Paper: August 10, 2019</li>
