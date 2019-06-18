@@ -109,6 +109,37 @@
                             </v-layout>
                         </v-card>
                     </v-flex>
+                    <v-flex xs12>
+                        <v-card min-height="300">
+                            <v-layout>
+                                <v-img
+                                    src="./img/invited/dummy.png"
+                                    height="300"
+                                    width="220"
+                                    position="top"
+                                    class="ml-1"
+                                ></v-img>
+                                <v-card-text>
+                                    <v-flex xs12 sm12 md12 lg12 xl12>
+                                        <div class="title">Arif Hidayat, Ph.D</div>
+                                        <div class="subheading">
+                                            <a
+                                                href="#"
+                                                target="_blank"
+                                                style="text-decoration: none"
+                                            >Universitas Pendidikan Indonesia</a>, Indonesia
+                                        </div>
+                                    </v-flex>
+                                    <v-flex>
+                                        <div class="title">Tentative Title:</div>
+                                        <p body-1>To Be Announced (TBA)</p>
+                                        <div class="title">Abstract:</div>
+                                        <p body-1>To Be Announced (TBA)</p>
+                                    </v-flex>
+                                </v-card-text>
+                            </v-layout>
+                        </v-card>
+                    </v-flex>
                 </v-layout>
                 <br>
                 <v-layout justify-center text-xs-center>

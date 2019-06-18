@@ -232,47 +232,47 @@
                 </v-flex>
                 <v-flex xs12 sm12 md8 lg8 xl7 class="light-blue lighten-3">
                     <v-card-text>
-                        <div class="title mb-3 white--text">
+                        <div class="title mb-2 white--text">
                             <b>Supported By</b>
                         </div>
                         <v-layout v-if="this.$vuetify.breakpoint.smAndUp">
                             <v-flex xs2>
-                                <v-img src="./img/amli/unnes.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/unnes.png" max-height="50" contain></v-img>
                             </v-flex>
                             <v-flex xs2>
-                                <v-img src="./img/amli/upi.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/upi.png" max-height="50" contain></v-img>
                             </v-flex>
                             <v-flex xs2>
-                                <v-img src="./img/amli/uny.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/uny.png" max-height="50" contain></v-img>
                             </v-flex>
                             <v-flex xs2>
-                                <v-img src="./img/amli/um.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/um.png" max-height="50" contain></v-img>
                             </v-flex>
                             <v-flex xs2>
-                                <v-img src="./img/amli/undiksha.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/undiksha.png" max-height="50" contain></v-img>
                             </v-flex>
                             <v-flex xs2>
-                                <v-img src="./img/amli/unj.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/unj.png" max-height="50" contain></v-img>
                             </v-flex>
                         </v-layout>
-                        <v-layout mt-5 v-if="this.$vuetify.breakpoint.smAndUp">
+                        <v-layout mt-3 v-if="this.$vuetify.breakpoint.smAndUp">
                             <v-flex xs2>
-                                <v-img src="./img/amli/unimed.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/unimed.png" max-height="50" contain></v-img>
                             </v-flex>
                             <v-flex xs2>
-                                <v-img src="./img/amli/unp.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/unp.png" max-height="50" contain></v-img>
                             </v-flex>
                             <v-flex xs2>
-                                <v-img src="./img/amli/unima.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/unima.png" max-height="50" contain></v-img>
                             </v-flex>
                             <v-flex xs2>
-                                <v-img src="./img/amli/unm.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/unm.png" max-height="50" contain></v-img>
                             </v-flex>
                             <v-flex xs2>
-                                <v-img src="./img/amli/ung.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/ung.png" max-height="50" contain></v-img>
                             </v-flex>
                             <v-flex xs2>
-                                <v-img src="./img/amli/unesa.png" max-height="60" contain></v-img>
+                                <v-img src="./img/amli/unesa.png" max-height="50" contain></v-img>
                             </v-flex>
                         </v-layout>
                         <v-layout v-if="this.$vuetify.breakpoint.xs">
@@ -315,8 +315,15 @@
                                 <v-img src="./img/amli/unesa.png" max-height="46" contain></v-img>
                             </v-flex>
                         </v-layout>
-
                         <br>
+                        <div class="title mb-3 white--text">
+                            <b>Published By</b>
+                        </div>
+                        <v-layout v-if="this.$vuetify.breakpoint.smAndUp">
+                            <v-flex xs3>
+                                <v-img src="./img/logo/eai.png" max-height="50" contain></v-img>
+                            </v-flex>
+                        </v-layout>
                     </v-card-text>
                 </v-flex>
             </v-layout>

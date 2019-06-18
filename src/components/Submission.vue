@@ -15,12 +15,9 @@
                     <p>
                         Authors are requested to submit
                         <b class="teal--text">an abstract</b> to the Organizing Committee by
-                        <strike
-                            class="red--text"
-                        >May 1, 2019 for phase 1</strike> 
                         <b
                             class="red--text"
-                        > (June 1, 2019 for phase 1 Extended)</b>. Please take a look at the Important dates in detail
+                        > July 1, 2019 for phase 2</b>. Please take a look at the Important dates in detail
                         <router-link to="/dates" style="text-decoration: none">here</router-link>. The abstract must contain the following sections: introduction/contextual information, aim of the study, method, results, conclusion/contributions, and keywords. The abstract must have no longer than 200 words.
                     </p>
                     <h3 display-2 class="red--text">[IMPORTANT]&nbsp;</h3>
@@ -33,11 +30,8 @@
                             href="http://msceis2019.upiconf.org/kfz/"
                             target="_blank"
                             style="text-decoration: none"
-                        >Submission System</a>” then “Login”). The submitted abstracts will be selected for presentation. The manuscripts (full papers) should be submitted only after the abstracts are accepted. The paper must be submitted
-                        <b
-                            class="teal--text"
-                        >two weeks</b> after the conference day
-                        <b class="red--text">(July 1, 2019 for Phase 1)</b>. Please go to “<a
+                        >Submission System</a>” then “Login”). The submitted abstracts will be selected for presentation. The manuscripts (full papers) should be submitted only after the abstracts are accepted. The full paper must be submitted according to the corresponding schedule on the important dates. Please find the full-paper template of EAI Core Series here (<a href="./downloads/eai-template.docx">docx</a> & <a href="./downloads/eai-template.pdf">pdf</a>).
+                         Please go to “<a
                             href="http://msceis2019.upiconf.org/kfz/"
                             target="_blank"
                             style="text-decoration: none"

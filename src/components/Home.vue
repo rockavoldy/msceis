@@ -22,7 +22,7 @@
                     >Significant tourist sites near Bandung include the Tangkuban Prahu volcano crater to the north, the striking Kawah Putih volcano lake, and Patenggang Lake, a lake surrounded by tea plantations about 50 kilometres (31 miles) to the south of the city.</p>
                     <p
                         class="subheading text-xs-justify"
-                    >All accepted and presented papers will be published by EAI Core Series, which is a publisher indexed by Web of Science, Scopus, etc.</p>
+                    >All accepted and presented papers will be published by EAI Core Series (<a href="https://eudl.eu/series/CORE">https://eudl.eu/series/CORE</a>), which is a publisher indexed by Web of Science, Scopus, etc.</p>
                 </div>
             </v-flex>
         </v-layout>
@@ -101,6 +101,31 @@
                                             >Suan Sunandha Rajabhat University</div>
                                             <div class="body-1">Mathematics Education</div>
                                             <div class="body-1">Thailand</div>
+                                        </div>
+                                    </v-card-title>
+                                </v-flex>
+                            </v-layout>
+                        </v-card>
+                    </v-flex>
+                    <v-flex xs12 md6>
+                        <v-card min-height="260" to="/speakers" class="mb-2">
+                            <v-layout>
+                                <v-img
+                                    src="./img/invited/dummy.png"
+                                    height="260"
+                                    width="200"
+                                    position="top"
+                                    class="ml-1"
+                                ></v-img>
+                                <v-flex xs12 sm7 md7 lg8 xl9>
+                                    <v-card-title primary-title class="mt-3">
+                                        <div>
+                                            <div class="headline">Arif Hidayat, Ph.D</div>
+                                            <div
+                                                class="subheading"
+                                            >Universitas Pendidikan Indonesia</div>
+                                            <div class="body-1">Department of Physics Education</div>
+                                            <div class="body-1">Indonesia</div>
                                         </div>
                                     </v-card-title>
                                 </v-flex>
