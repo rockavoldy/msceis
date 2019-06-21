@@ -22,9 +22,9 @@
             </i>. It will be held on October 12, 2019 in Bandung, West Java, Indonesia.
             <br>
             <br>
-            <router-link to="/attraction" target="_blank" style="text-decoration: none">Bandung</router-link> is the capital of West Java province in Indonesia and Indonesia's fourth largest city after Jakarta, Surabaya and Medan, make it the third largest city by population, with over 2.4 million, and Greater
-            <router-link to="/attraction" target="_blank" style="text-decoration: none">Bandung</router-link> made up of 2 municipalities and 38 districts, making it the nation's 2nd largest metropolitan area with 6,965,655 inhabitants at the 2010 census. Located 768 metres (2,520 ft) above sea level, approximately 140 kilometres (87 miles) south east of Jakarta,
-            <router-link to="/attraction" target="_blank" style="text-decoration: none">Bandung</router-link> has cooler temperatures year-round than most other Indonesian cities. The city lies on a river basin surrounded by volcanic mountains. This topography provides a natural defense system, which was the primary reason for the Dutch East Indies government's plan to move the colony capital from Batavia (modern-day Jakarta) to
+            <router-link to="/attraction" target="_blank" style="text-decoration: none">Bandung</router-link>is the capital of West Java province in Indonesia and Indonesia's fourth largest city after Jakarta, Surabaya and Medan, make it the third largest city by population, with over 2.4 million, and Greater
+            <router-link to="/attraction" target="_blank" style="text-decoration: none">Bandung</router-link>made up of 2 municipalities and 38 districts, making it the nation's 2nd largest metropolitan area with 6,965,655 inhabitants at the 2010 census. Located 768 metres (2,520 ft) above sea level, approximately 140 kilometres (87 miles) south east of Jakarta,
+            <router-link to="/attraction" target="_blank" style="text-decoration: none">Bandung</router-link>has cooler temperatures year-round than most other Indonesian cities. The city lies on a river basin surrounded by volcanic mountains. This topography provides a natural defense system, which was the primary reason for the Dutch East Indies government's plan to move the colony capital from Batavia (modern-day Jakarta) to
             <router-link to="/attraction" target="_blank" style="text-decoration: none">Bandung</router-link>.
             <br>
             <br>Official Weblink:
@@ -32,7 +32,12 @@
               href="https://msceis.org"
               target="_blank"
               style="text-decoration: none"
-            >https://msceis.org</a>
+            >https://msceis.org</a> &
+            <a
+              href="http://msceis.event.upi.edu"
+              target="_blank"
+              style="text-decoration: none"
+            >http://msceis.event.upi.edu</a>
             <br>Conference Venue:
             <router-link
               to="/venue"
