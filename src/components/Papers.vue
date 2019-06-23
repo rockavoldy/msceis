@@ -51,7 +51,12 @@
               <router-link to="/submission" style="text-decoration: none">July 1, 2019.</router-link>
             </b>
             <br>
-            <br>Please feel free to ask if you have any question. We expect to have more than 120 participants from more than 40 countries. All accepted and presented papers will be published by EAI Core Series, which is a publisher indexed by Web of Science, Scopus, etc.
+            <br>Please feel free to ask if you have any question. We expect to have more than 120 participants from more than 40 countries. All accepted and presented papers will be published by EAI CORE Series (<a href="https://eudl.eu/series/CORE">https://eudl.eu/series/CORE</a>), which is a publisher indexed by Web of Science, Scopus, etc., Consequently, any unpresented paper won't be published. Moreover, some selected papers will be submitted to the following international journals:
+              <ul>
+                  <li>Indonesian Journal of Science & Technology (<a href="http://ejournal.upi.edu/index.php/ijost/">http://ejournal.upi.edu/index.php/ijost/</a>), Indexed by Scopus.</li>
+                  <li>EAI Transactions Journal (To be confirmed), Indexed by Scopus.</li>
+                  <li>Jurnal pengajaran MIPA (JPMIPA, <a href="http://ejournal.upi.edu/index.php/jpmipa">http://ejournal.upi.edu/index.php/jpmipa</a>), Accredited by DIKTI, Indonesia</li>
+              </ul>
             <br>
             <br>Moreover, we request you to forward this email to other researchers in your university.
             <br>

@@ -155,13 +155,16 @@
 
     <v-layout v-if="$route.path == '/'" column>
       <v-flex>
-        <v-responsive>
-          <v-carousel :height="530" hide-delimiters>
-            <v-carousel-item v-for="(item, i) in items" :key="i">
-              <v-img :src="item.src"></v-img>
-            </v-carousel-item>
-          </v-carousel>
-        </v-responsive>
+        <v-carousel hide-delimiters :height="this.carouselHeight" class="hidden-md-and-up">
+          <v-carousel-item v-for="(item, i) in items" :key="i">
+            <v-img :src="item.src"></v-img>
+          </v-carousel-item>
+        </v-carousel>
+        <v-carousel hide-delimiters height="465" class="hidden-sm-and-down">
+          <v-carousel-item v-for="(item, i) in items" :key="i">
+            <v-img :src="item.src"></v-img>
+          </v-carousel-item>
+        </v-carousel>
       </v-flex>
       <v-flex class="grid-list-xs text-xs-center">
         <v-layout wrap v-bind="menu">
@@ -188,8 +191,8 @@
       <router-view></router-view>
     </v-content>
     <v-card>
-      <v-layout v-bind="checkSize" fill-height>
-        <v-flex xs12 sm12 md4 lg4 xl5 class="blue">
+      <v-layout row wrap fill-height>
+        <v-flex xs12 sm8 md8 lg4 xl5 class="blue">
           <v-card-text>
             <div class="title mb-2 white--text">
               <b>Contact Us</b>
@@ -230,7 +233,17 @@
             </div>
           </v-card-text>
         </v-flex>
-        <v-flex xs12 sm12 md8 lg8 xl7 class="light-blue lighten-3">
+        <v-flex xs12 sm4 md4 lg2 xl2 class="light-blue lighten-3">
+          <v-card-text>
+            <div class="title mb-5 white--text">
+              <b>Organized By</b>
+            </div>
+            <div>
+              <v-img src="./img/amli/upi.png" max-height="160" contain></v-img>
+            </div>
+          </v-card-text>
+        </v-flex>
+        <v-flex xs12 sm12 md12 lg6 xl5 class="light-blue lighten-3">
           <v-card-text>
             <div class="title mb-2 white--text">
               <b>Supported By</b>
@@ -238,9 +251,6 @@
             <v-layout v-if="this.$vuetify.breakpoint.smAndUp">
               <v-flex xs2>
                 <v-img src="./img/amli/unnes.png" max-height="50" contain></v-img>
-              </v-flex>
-              <v-flex xs2>
-                <v-img src="./img/amli/upi.png" max-height="50" contain></v-img>
               </v-flex>
               <v-flex xs2>
                 <v-img src="./img/amli/uny.png" max-height="50" contain></v-img>
@@ -254,11 +264,11 @@
               <v-flex xs2>
                 <v-img src="./img/amli/unj.png" max-height="50" contain></v-img>
               </v-flex>
-            </v-layout>
-            <v-layout mt-3 v-if="this.$vuetify.breakpoint.smAndUp">
               <v-flex xs2>
                 <v-img src="./img/amli/unimed.png" max-height="50" contain></v-img>
               </v-flex>
+            </v-layout>
+            <v-layout mt-3 v-if="this.$vuetify.breakpoint.smAndUp">
               <v-flex xs2>
                 <v-img src="./img/amli/unp.png" max-height="50" contain></v-img>
               </v-flex>
@@ -280,9 +290,6 @@
                 <v-img src="./img/amli/unnes.png" max-height="46" contain></v-img>
               </v-flex>
               <v-flex xs2>
-                <v-img src="./img/amli/upi.png" max-height="46" contain></v-img>
-              </v-flex>
-              <v-flex xs2>
                 <v-img src="./img/amli/uny.png" max-height="46" contain></v-img>
               </v-flex>
               <v-flex xs2>
@@ -294,11 +301,11 @@
               <v-flex xs2>
                 <v-img src="./img/amli/unj.png" max-height="46" contain></v-img>
               </v-flex>
-            </v-layout>
-            <v-layout mt-3 v-if="this.$vuetify.breakpoint.xs">
               <v-flex xs2>
                 <v-img src="./img/amli/unimed.png" max-height="46" contain></v-img>
               </v-flex>
+            </v-layout>
+            <v-layout mt-3 v-if="this.$vuetify.breakpoint.xs">
               <v-flex xs2>
                 <v-img src="./img/amli/unp.png" max-height="46" contain></v-img>
               </v-flex>
@@ -320,8 +327,25 @@
               <b>Published By</b>
             </div>
             <v-layout v-if="this.$vuetify.breakpoint.smAndUp">
-              <v-flex xs3>
+              <v-flex xs4>
                 <v-img src="./img/logo/eai.png" max-height="50" contain></v-img>
+              </v-flex>
+              <v-flex xs4>
+                <v-img src="./img/logo/scopus.png" max-height="50" contain></v-img>
+              </v-flex>
+              <v-flex xs4>
+                <v-img src="./img/logo/wos-logo.png" max-height="55" contain></v-img>
+              </v-flex>
+            </v-layout>
+            <v-layout v-if="this.$vuetify.breakpoint.xs">
+              <v-flex xs4>
+                <v-img src="./img/logo/eai.png" max-height="46" contain></v-img>
+              </v-flex>
+              <v-flex xs4>
+                <v-img src="./img/logo/scopus.png" max-height="46" contain></v-img>
+              </v-flex>
+              <v-flex xs4>
+                <v-img src="./img/logo/wos-logo.png" max-height="51" contain></v-img>
               </v-flex>
             </v-layout>
           </v-card-text>
@@ -385,8 +409,7 @@ export default {
   },
   getCarouselHeight() {
     var item = document.getElementsByClassName("v-image__image--cover");
-    // this.carouselHeight = item[0].clientHeight;
-    this.carouselHeight = 400;
+    this.carouselHeight = item[0].clientHeight;
   },
   mounted() {
     this.getCarouselHeight();

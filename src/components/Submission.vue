@@ -51,7 +51,7 @@
             All accepted and presented papers will be published by EAI CORE Series (
             <a
               href="https://eudl.eu/series/CORE"
-            >https://eudl.eu/series/CORE</a>), which is a publisher indexed by Web of Science, Scopus, etc., Consequently, any unpresented paper won't be publised. Moreover, some selected papers will be submitted to the following international journals:
+            >https://eudl.eu/series/CORE</a>), which is a publisher indexed by Web of Science, Scopus, etc., Consequently, any unpresented paper won't be published. Moreover, some selected papers will be submitted to the following international journals:
           </p>
           <ul>
             <li>
@@ -189,7 +189,7 @@
               </v-flex>
             </v-layout>
             <v-layout>
-              <v-flex xs2>UPI Presenter</v-flex>
+              <v-flex xs2>Presenter from UPI</v-flex>
               <v-flex xs10>1.000.000</v-flex>
             </v-layout>
           </v-container>
