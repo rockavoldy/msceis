@@ -38,10 +38,20 @@
                     </div>
                   </v-flex>
                   <v-flex>
-                    <div class="title">Tentative Title:</div>
-                    <p body-1>To Be Announced (TBA)</p>
-                    <div class="title">Abstract:</div>
-                    <p body-1>To Be Announced (TBA)</p>
+                    <div class="title mb-1">Tentative Title:</div>
+                    <p class="subheading font-weight-medium">Mining of Big-data &mdash; the Graphical Approach</p>
+                    <div class="title mb-2">Abstract:</div>
+                    <p class="body-1 text-xs-justify pr-4">
+                      <i>
+                        &nbsp;&nbsp;&nbsp;&nbsp;Degree of nodes of predesigned networks, like expressways or optical networks, have normal distribution with a defined highest degree, primarily limited by the hardware constraints. Data or information networks, like social networks on the internet, evolve naturally without constraint on degree or connectivity. Tweeter account of a popular person may have million followers. There happens to be preferential connections to a few nodes, where most of the nodes will have only a few links. The distribution of degree of nodes is exponential, with a long tail. These networks are called scale-free networks. Like social networks, very big data, like purchase data on Amazon, is evolved too. By representing data units by nodes, and their relations by links, one can create a graphical presentation. Though complete information will not be retained in the graphical representation, analyzing those networks could reveal interesting insights about the data.
+                        <br>
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;Examples of scale-free networks are plenty: (1) scientific papers, (2) face-book accounts, (3) various web-sites on the internet, (4) tweeter accounts, etc. Such data, when represented as network, exhibit scale-free property. In case of (1), the papers are nodes and either references or co-authorship could be used as links. In case of (2), individual accounts are nodes and friendship relation is the link. In fact, many physical phenomenon occurring in nature like gene interaction, aftershocks from a big earthquake, neuron excitation in the brain etc., exhibit scale free properties.
+                        <br>
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;Scale free networks form clusters with a few important central node/s. Nodes in a cluster are tightly interconnected, but between clusters, links are a few. Discovering such clusters and their central nodes reveals a lot about the data useful for various applications. We will elaborate this aspect with a few existing works, and a few new application areas we are working on.
+                        <br>
+                        <br><b>Keywords</b>: Scale-free network, Data mapped to network, Community detection, Central node/s detection, Collaborative filtering, Aftershock prediction,
+                      </i>
+                    </p>
                   </v-flex>
                 </v-card-text>
               </v-layout>
