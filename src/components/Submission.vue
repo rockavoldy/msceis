@@ -9,13 +9,13 @@
             </template>
           </v-breadcrumbs>
         </v-card>
-        <br>
+        <br />
         <h1 display-4 class="primary--text">Submission System</h1>
         <div class="subheading text-xs-justify">
           <p>
             Authors are requested to submit
             <b class="teal--text">an abstract</b> to the Organizing Committee by
-            <b class="red--text">July 1, 2019 for phase 2</b>. Please take a look at the Important dates in detail
+            <b class="red--text">August 15, 2019 for phase 3</b>. Please take a look at the Important dates in detail
             <router-link to="/dates" style="text-decoration: none">here</router-link>. The abstract must contain the following sections: introduction/contextual information, aim of the study, method, results, conclusion/contributions, and keywords. The abstract must have no longer than 200 words.
           </p>
           <h3 display-2 class="red--text">[IMPORTANT]&nbsp;</h3>
@@ -68,7 +68,7 @@
               >http://ejournal.upi.edu/index.php/jpmipa</a>), Accredited by DIKTI, Indonesia
             </li>
           </ul>
-          <br>
+          <br />
           <h1 display-4 class="primary--text">Registration Fee</h1>
           <h3 display-2 class="red--text">[IMPORTANT]&nbsp;</h3>
           <p>
@@ -81,7 +81,7 @@
               style="text-decoration: none"
             >Submission System</a>. Payment receipt can be downloaded directly from your account once your payment is confirmed by the committee.
           </p>
-          <br>
+          <br />
           <h3 display-2 class="text-xs-center">Registration Fee</h3>
           <h3
             display-2
@@ -145,10 +145,10 @@
                       </v-flex>
                     </v-layout>
                   </v-flex>
-                  <br class="hidden-sm-and-up">
-                  <br class="hidden-sm-and-up">
+                  <br class="hidden-sm-and-up" />
+                  <br class="hidden-sm-and-up" />
                   <v-flex xs12>
-                    <br class="hidden-md-and-up">
+                    <br class="hidden-md-and-up" />
                     <v-layout column>
                       <v-flex xs12>
                         <b>Regular (Until September 27, 2019)</b>
@@ -193,20 +193,20 @@
               <v-flex xs10>1.000.000</v-flex>
             </v-layout>
           </v-container>
-          <br>
-          <br>
+          <br />
+          <br />
           <p>
             The registration fee should be paid by bank transfer to:
-            <br>Bank :
+            <br />Bank :
             <b>Bank Negara Indonesia (BNI)</b>
-            <br>Account Holder Name :
+            <br />Account Holder Name :
             <b>BENDAHARA MSCEIS</b>
-            <br>Account Number :
+            <br />Account Number :
             <b>0709905948</b>
-            <br>Swift Code :
+            <br />Swift Code :
             <b>BNINIDJAXXX</b>
-            <br>
-            <br>We do not provide printed local proceedings onsite, please contact us if you need one. There is an additional charge to ship it to your address.
+            <br />
+            <br />We do not provide printed local proceedings onsite, please contact us if you need one. There is an additional charge to ship it to your address.
           </p>
         </div>
       </v-flex>

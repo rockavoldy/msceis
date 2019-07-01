@@ -345,7 +345,7 @@
                 <v-img src="./img/logo/scopus.png" max-height="46" contain></v-img>
               </v-flex>
               <v-flex xs4>
-                <v-img src="./img/logo/wos-logo.png" max-height="51" contain></v-img>
+                <v-img src="./img/logo/wos-logo.png" max-height="55" contain></v-img>
               </v-flex>
             </v-layout>
           </v-card-text>
