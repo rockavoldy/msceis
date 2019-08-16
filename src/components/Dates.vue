@@ -96,37 +96,33 @@
           </ul>
         </div>
         <div class="text-xs-justify subheading">
-          <h3 display-2 class="text-weight-medium">Phase 3 (extended)</h3>
+          <h3 display-2 class="text-weight-medium">Phase 3 (Extended)</h3>
           <ul>
             <li>
-              <strike
-                v-if="dateNow > phase3.absSubm"
-              >Abstract Submission: {{phase3.absSubm | moment}}</strike>
-              <span v-else>Abstract Submission: {{phase3.absSubm | moment}}</span>
+              Abstract Submission:
+              <strike>{{phase3.absSubm | moment}}</strike>
+              &nbsp;{{phase3.absSubmExt | moment}}
             </li>
             <li>
-              <strike
-                v-if="dateNow > phase3.absNotif"
-              >Abstract Notification/Acceptance: {{phase3.absNotif | moment}}</strike>
-              <span v-else>Abstract Notification/Acceptance: {{phase3.absNotif | moment}}</span>
+              Abstract Notification/Acceptance:
+              <strike>{{phase3.absNotif | moment}}</strike>
+              &nbsp;{{phase3.absNotifExt | moment}}
             </li>
             <li>
-              <strike
-                v-if="dateNow > phase3.paperSubm"
-              >Full Paper Submission: {{phase3.paperSubm | moment}}</strike>
-              <span v-else>Full Paper Submission: {{phase3.paperSubm | moment}}</span>
+              Full Paper Submission:
+              <strike>{{phase3.paperSubm | moment}}</strike>
+              &nbsp;{{phase3.paperSubmExt | moment}}
             </li>
             <li>
-              <strike
-                v-if="dateNow > phase3.paperNotif"
-              >Full Paper Notification/Acceptance: {{phase3.paperNotif | moment}}</strike>
-              <span v-else>Full Paper Notification/Acceptance: {{phase3.paperNotif | moment}}</span>
+              Full Paper Notification/Acceptance:
+              <strike>{{phase3.paperNotif | moment}}</strike>
+              &nbsp;{{phase3.paperNotifExt | moment}}
             </li>
             <li>
-              <strike
-                v-if="dateNow > phase3.camReady"
-              >Deadline for Camera Ready Paper: {{phase3.camReady | moment}}</strike>
-              <span v-else>Deadline for Camera Ready Paper: {{phase3.camReady | moment}}</span>
+              Deadline for Camera Ready Paper:
+              <strike>{{phase3.camReady | moment}}</strike>
+              &nbsp;
+              {{phase3.camReadyExt | moment}}
             </li>
           </ul>
         </div>
@@ -174,11 +170,16 @@ export default {
       camReady: new Date(2019, 8, 15)
     },
     phase3: {
-      absSubm: new Date(2019, 7, 30),
-      absNotif: new Date(2019, 8, 7),
-      paperSubm: new Date(2019, 8, 20),
-      paperNotif: new Date(2019, 8, 30),
-      camReady: new Date(2019, 9, 5)
+      absSubm: new Date(2019, 7, 15),
+      absNotif: new Date(2019, 7, 20),
+      paperSubm: new Date(2019, 8, 10),
+      paperNotif: new Date(2019, 8, 15),
+      camReady: new Date(2019, 8, 25),
+      absSubmExt: new Date(2019, 7, 30),
+      absNotifExt: new Date(2019, 8, 7),
+      paperSubmExt: new Date(2019, 8, 20),
+      paperNotifExt: new Date(2019, 8, 30),
+      camReadyExt: new Date(2019, 9, 5)
     }
   }),
   filters: {
