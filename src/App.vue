@@ -155,7 +155,7 @@
 
     <v-layout v-if="$route.path == '/'" column>
       <v-flex>
-        <v-carousel hide-delimiters :height="this.carouselHeight" class="hidden-md-and-up">
+        <v-carousel hide-delimiters height="230" class="hidden-md-and-up">
           <v-carousel-item v-for="(item, i) in items" :key="i">
             <v-img :src="item.src"></v-img>
           </v-carousel-item>
@@ -199,35 +199,35 @@
             </div>
             <div class="subheading white--text">
               Faculty of Mathematics and Natural Sciences Education,
-              <br>
+              <br />
               <b>Universitas Pendidikan Indonesia</b>
-              <br>2nd Floor of FPMIPA A (JICA) Building
-              <br>Jl. Setiabudhi, No. 229, Bandung, West Java, Indonesia
-              <br>
+              <br />2nd Floor of FPMIPA A (JICA) Building
+              <br />Jl. Setiabudhi, No. 229, Bandung, West Java, Indonesia
+              <br />
               <b>Website:&nbsp;</b>
               <a
                 style="color: white"
                 target="_blank"
                 href="http://msceis.event.upi.edu/"
               >http://msceis.event.upi.edu/</a>
-              <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 style="color: white"
                 target="_blank"
                 href="http://www.upi.edu/"
               >http://www.upi.edu/</a>
-              <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 style="color: white"
                 target="_blank"
                 href="http://fpmipa.upi.edu/"
               >http://fpmipa.upi.edu/</a>
-              <br>
+              <br />
               <b>Email:&nbsp;</b>
               <a style="color: white" href="mailto: msceis@upi.edu">msceis@upi.edu</a>
-              <br>
+              <br />
               <b>CP:&nbsp;</b>Eka Cahya Prima
-              <br>
+              <br />
               <b>Phone:&nbsp;</b>
               (+62)&nbsp;857-9324-5289
             </div>
@@ -322,7 +322,7 @@
                 <v-img src="./img/amli/unesa.png" max-height="46" contain></v-img>
               </v-flex>
             </v-layout>
-            <br>
+            <br />
             <div class="title mb-3 white--text">
               <b>Published By</b>
             </div>
@@ -364,6 +364,10 @@ export default {
       carouselHeight: null,
       drawer: null,
       items: [
+        {
+          name: "Registration Fee",
+          src: "./img/carousels/registration.png"
+        },
         {
           name: "Wayang Golek",
           src: "./img/carousels/alun1.jpg"
@@ -409,7 +413,8 @@ export default {
   },
   getCarouselHeight() {
     var item = document.getElementsByClassName("v-image__image--cover");
-    this.carouselHeight = item[0].clientHeight;
+    this.carouselHeight = item[3].clientHeight;
+    // return item[3].clientHeight;
   },
   mounted() {
     this.getCarouselHeight();

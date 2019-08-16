@@ -96,7 +96,7 @@
           </ul>
         </div>
         <div class="text-xs-justify subheading">
-          <h3 display-2 class="text-weight-medium">Phase 3</h3>
+          <h3 display-2 class="text-weight-medium">Phase 3 (extended)</h3>
           <ul>
             <li>
               <strike
@@ -174,11 +174,11 @@ export default {
       camReady: new Date(2019, 8, 15)
     },
     phase3: {
-      absSubm: new Date(2019, 7, 15),
-      absNotif: new Date(2019, 7, 20),
-      paperSubm: new Date(2019, 8, 10),
-      paperNotif: new Date(2019, 8, 15),
-      camReady: new Date(2019, 8, 25)
+      absSubm: new Date(2019, 7, 30),
+      absNotif: new Date(2019, 8, 7),
+      paperSubm: new Date(2019, 8, 20),
+      paperNotif: new Date(2019, 8, 30),
+      camReady: new Date(2019, 9, 5)
     }
   }),
   filters: {

@@ -1,33 +1,22 @@
 <template>
     <v-container grid-list-md>
-        <v-layout>
-            <v-flex>
+        <v-layout wrap>
+            <v-flex xs12>
                 <h1 display-4 class="mb-3 mt-3 text-xs-center primary--text">Welcome to MSCEIS 2019</h1>
-                <div>
-                    <p class="subheading text-xs-justify">
-                        Mathematics, Science, and Computer Science Education International Seminar (MSCEIS) 2019 is an annual conference which held by many domestic and overseas universities. It is held by the Faculty of Mathematics and Natural Science Education, Universitas Pendidikan Indonesia (UPI) and the collaboration with 12 University associated in Asosiasi MIPA LPTK Indonesia (AMLI) consisting of
-                        Universitas Negeri Semarang (UNNES), Universitas Pendidikan Indonesia (UPI), Universitas Negeri Yogyakarta (UNY), Universitas Negeri Malang (UM), Universitas Negeri Jakarta (UNJ), Universitas Negeri Medan (UNIMED), Universitas Negeri Padang (UNP), Universitas Negeri Manado (UNIMA), Universitas Negeri Makassar (UNM), Universitas Pendidikan Ganesha (UNDHIKSA), Universitas Negeri Gorontalo (UNG), and Universitas Negeri Surabaya (UNESA).
-                    </p>
-                    <p class="subheading text-xs-justify">
-                        In this year, MSCEIS 2019 takes the following theme:
-                        <i class="green--text">
-                            <b>"Mathematics, Science, and Computer Science Education for Addressing Challenges and Implementations of Revolution-Industry 4.0"</b>
-                        </i>. It will be held on October 12, 2019 in Bandung, West Java, Indonesia.
-                    </p>
-                    <p
-                        class="subheading text-xs-justify"
-                    >Bandung is the capital of West Java province in Indonesia and Indonesia's fourth largest city after Jakarta, Surabaya and Medan, make it the third largest city by population, with over 2.4 million, and Greater Bandung made up of 2 municipalities and 38 districts, making it the nation's 2nd largest metropolitan area with 6,965,655 inhabitants at the 2010 census. Located 768 metres (2,520 ft) above sea level, approximately 140 kilometres (87 miles) south east of Jakarta, Bandung has cooler temperatures year-round than most other Indonesian cities. The city lies on a river basin surrounded by volcanic mountains. This topography provides a natural defense system, which was the primary reason for the Dutch East Indies government's plan to move the colony capital from Batavia (modern-day Jakarta) to Bandung.<br>Significant tourist sites near Bandung include the Tangkuban Prahu volcano crater to the north, the striking Kawah Putih volcano lake, and Patenggang Lake, a lake surrounded by tea plantations about 50 kilometres (31 miles) to the south of the city.</p>
-                    <p
-                        class="subheading text-xs-justify"
-                    >All accepted and presented papers will be published by EAI CORE Series (<a href="https://eudl.eu/series/CORE">https://eudl.eu/series/CORE</a>), which is a publisher indexed by Web of Science, Scopus, etc., Consequently, any unpresented paper won't be published. Moreover, some selected papers will be submitted to the following international journals:
+                <div class="subheading text-xs-justify">
+                    Mathematics, Science, and Computer Science Education International Seminar (MSCEIS) 2019 is an annual conference which held by many domestic and overseas universities. It is held by the Faculty of Mathematics and Natural Science Education, Universitas Pendidikan Indonesia (UPI) and the collaboration with 12 University associated in Asosiasi MIPA LPTK Indonesia (AMLI) consisting of Universitas Negeri Semarang (UNNES), Universitas Pendidikan Indonesia (UPI), Universitas Negeri Yogyakarta (UNY), Universitas Negeri Malang (UM), Universitas Negeri Jakarta (UNJ), Universitas Negeri Medan (UNIMED), Universitas Negeri Padang (UNP), Universitas Negeri Manado (UNIMA), Universitas Negeri Makassar (UNM), Universitas Pendidikan Ganesha (UNDHIKSA), Universitas Negeri Gorontalo (UNG), and Universitas Negeri Surabaya (UNESA). In this year, MSCEIS 2019 takes the following theme: <i class="green--text"><b>"Mathematics, Science, and Computer Science Education for Addressing Challenges and Implementations of Revolution-Industry 4.0"</b></i>. It will be held on October 12, 2019 in Bandung, West Java, Indonesia.
+                    <br />
+                    <br />
+                    Bandung is the capital of West Java province in Indonesia and Indonesia's fourth largest city after Jakarta, Surabaya and Medan, make it the third largest city by population, with over 2.4 million, and Greater Bandung made up of 2 municipalities and 38 districts, making it the nation's 2nd largest metropolitan area with 6,965,655 inhabitants at the 2010 census. Located 768 metres (2,520 ft) above sea level, approximately 140 kilometres (87 miles) south east of Jakarta, Bandung has cooler temperatures year-round than most other Indonesian cities. The city lies on a river basin surrounded by volcanic mountains. This topography provides a natural defense system, which was the primary reason for the Dutch East Indies government's plan to move the colony capital from Batavia (modern-day Jakarta) to Bandung.<br>Significant tourist sites near Bandung include the Tangkuban Prahu volcano crater to the north, the striking Kawah Putih volcano lake, and Patenggang Lake, a lake surrounded by tea plantations about 50 kilometres (31 miles) to the south of the city.
+                    <br />
+                    <br />
+                    All accepted and presented papers will be published by EAI CORE Series (<a href="https://eudl.eu/series/CORE">https://eudl.eu/series/CORE</a>), which is a publisher indexed by Web of Science, Scopus, etc., Consequently, any unpresented paper won't be published. Moreover, some selected papers will be submitted to the following international journals:
                     <ul>
                         <li>Indonesian Journal of Science & Technology (<a href="http://ejournal.upi.edu/index.php/ijost/">http://ejournal.upi.edu/index.php/ijost/</a>), Indexed by Scopus.</li>
                         <li>EAI Transactions Journal (To be confirmed), Indexed by Scopus.</li>
                         <li>Jurnal pengajaran MIPA (JPMIPA, <a href="http://ejournal.upi.edu/index.php/jpmipa">http://ejournal.upi.edu/index.php/jpmipa</a>), Accredited by DIKTI, Indonesia</li>
                     </ul>
-                    </p>
-
-                    <p class="subheading text-xs-justify red--text"><i>News: The Proceeding of MSCEIS 2018 has been reviewed and already accepted by IOP (indexed by Scopus) and now on the process to published (approximately 5-6 weeks to publish).</i></p>
+                    <i class="subheading text-xs-justify red--text">News: The Proceeding of MSCEIS 2018 has been reviewed and already accepted by IOP (indexed by Scopus) and now on the process to published (approximately 5-6 weeks to publish).</i>
                 </div>
             </v-flex>
         </v-layout>

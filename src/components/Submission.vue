@@ -15,7 +15,9 @@
           <p>
             Authors are requested to submit
             <b class="teal--text">an abstract</b> to the Organizing Committee by
-            <b class="red--text">August 15, 2019 for phase 3</b>. Please take a look at the Important dates in detail
+            <b
+              class="red--text"
+            >August 30, 2019 for phase 3 (Extended)</b>. Please take a look at the Important dates in detail
             <router-link to="/dates" style="text-decoration: none">here</router-link>. The abstract must contain the following sections: introduction/contextual information, aim of the study, method, results, conclusion/contributions, and keywords. The abstract must have no longer than 200 words.
           </p>
           <h3 display-2 class="red--text">[IMPORTANT]&nbsp;</h3>
@@ -83,11 +85,105 @@
           </p>
           <br />
           <h3 display-2 class="text-xs-center">Registration Fee</h3>
-          <h3
+          <!-- <h3
             display-2
             v-if="checkWidth == false"
-          >Please use landscape mode and reload the page to view this content on your phone.</h3>
-          <v-container fluid v-else>
+          >Please use landscape mode and reload the page to view this content on your phone.</h3>-->
+          <v-container fluid class="hidden-md-and-up">
+            <v-layout class="text-xs-left" wrap>
+              <v-flex xs12 class="text-xs-center">
+                <b>Early Bird (Until September 3, 2019)</b>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm2>&nbsp;</v-flex>
+                  <v-flex xs4 sm5>Oral Presenter</v-flex>
+                  <v-flex xs4 sm5>Accompany Person</v-flex>
+                </v-layout>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm2>General</v-flex>
+                  <v-flex xs4 sm5>2.000.000 IDR</v-flex>
+                  <v-flex xs4 sm5>600.000 IDR</v-flex>
+                </v-layout>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm2>&nbsp;</v-flex>
+                  <v-flex xs4 sm5>300 USD</v-flex>
+                  <v-flex xs4 sm5>50 USD</v-flex>
+                </v-layout>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm2>Student</v-flex>
+                  <v-flex xs4 sm5>1.500.000 IDR</v-flex>
+                  <v-flex xs4 sm5>600.000 IDR</v-flex>
+                </v-layout>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm2>&nbsp;</v-flex>
+                  <v-flex xs4 sm5>275 USD</v-flex>
+                  <v-flex xs4 sm5>50 USD</v-flex>
+                </v-layout>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm3>Presenter from UPI</v-flex>
+                  <v-flex xs4 sm4>&nbsp;</v-flex>
+                  <v-flex xs4 sm5>1.000.000 IDR</v-flex>
+                </v-layout>
+              </v-flex>
+              <v-flex xs12 class="text-xs-center">
+                <b>Regular (Until September 27, 2019)</b>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm2>&nbsp;</v-flex>
+                  <v-flex xs4 sm5>Oral Presenter</v-flex>
+                  <v-flex xs4 sm5>Accompany Person</v-flex>
+                </v-layout>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm2>General</v-flex>
+                  <v-flex xs4 sm5>2.000.000 IDR</v-flex>
+                  <v-flex xs4 sm5>600.000 IDR</v-flex>
+                </v-layout>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm2>&nbsp;</v-flex>
+                  <v-flex xs4 sm5>300 USD</v-flex>
+                  <v-flex xs4 sm5>50 USD</v-flex>
+                </v-layout>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm2>Student</v-flex>
+                  <v-flex xs4 sm5>1.500.000 IDR</v-flex>
+                  <v-flex xs4 sm5>600.000 IDR</v-flex>
+                </v-layout>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm2>&nbsp;</v-flex>
+                  <v-flex xs4 sm5>275 USD</v-flex>
+                  <v-flex xs4 sm5>50 USD</v-flex>
+                </v-layout>
+              </v-flex>
+              <v-flex xs12>
+                <v-layout row wrap>
+                  <v-flex xs4 sm3>Presenter from UPI</v-flex>
+                  <v-flex xs4 sm4>&nbsp;</v-flex>
+                  <v-flex xs4 sm5>1.000.000 IDR</v-flex>
+                </v-layout>
+              </v-flex>
+            </v-layout>
+          </v-container>
+          <v-container fluid class="hidden-sm-and-down">
             <v-layout class="text-xs-justify">
               <v-flex xs2>
                 <v-layout column>
