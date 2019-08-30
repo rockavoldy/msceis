@@ -6,24 +6,16 @@
     >2019 7th Mathematics, Science, and Computer Science Education International Seminar (MSCEIS)</h1>
     <v-toolbar>
       <v-img src="./img/msceis.png" height="50%" contain class="hidden-sm-and-up"></v-img>
-      <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn flat class="hidden-xs-only">
           <span class="headline">MSCEIS</span>
-          <!-- <v-img src="./img/msceis.png"></v-img> -->
         </v-btn>
-        <!-- <v-btn flat to="/" class="hidden-lg-and-up"> -->
-        <!-- <span class="headline">MSCEIS</span> -->
-
-        <!-- </v-btn> -->
-      </v-toolbar-items>
-      <v-toolbar-items class="hidden-md-and-down">
-        <v-btn flat to="/">
+        <v-btn flat class="hidden-md-and-down" to="/">
           <span>Home</span>
         </v-btn>
         <v-menu flat open-on-hover bottom>
           <template v-slot:activator="{on}">
-            <v-btn flat v-on="on">
+            <v-btn flat v-on="on" class="hidden-md-and-down">
               <span>About</span>
               <v-icon>arrow_drop_down</v-icon>
             </v-btn>
@@ -46,33 +38,50 @@
             </v-list-tile>
           </v-list>
         </v-menu>
-        <v-btn flat to="papers">
+        <v-btn flat class="hidden-md-and-down" color="red">
+          <span>News</span>
+        </v-btn>
+        <v-btn flat class="hidden-md-and-down" to="papers">
           <span>Call For Papers</span>
         </v-btn>
-        <v-btn flat to="submission">
+        <v-btn flat class="hidden-md-and-down" to="submission">
           <span>Submission & Registration</span>
         </v-btn>
-        <v-btn flat to="dates">
+        <v-btn flat class="hidden-md-and-down" to="dates">
           <span>Important Dates</span>
-        </v-btn>
-        <v-btn flat to="venue">
-          <span>Venue</span>
-        </v-btn>
-        <v-btn flat to="visa">
-          <span>Visa Information</span>
-        </v-btn>
-        <v-btn flat to="attractions">
-          <span>Attractions</span>
-        </v-btn>
-        <v-btn flat to="contact">
-          <span>Contact</span>
         </v-btn>
       </v-toolbar-items>
       <v-spacer></v-spacer>
+      <v-toolbar-side-icon class="hidden-md-and-down" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-side-icon class="hidden-lg-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
     </v-toolbar>
     <v-navigation-drawer v-model="drawer" right temporary fixed min-width="100%" id="drawer">
-      <v-list>
+      <v-list class="hidden-md-and-down">
+        <v-list-tile>
+          <v-icon @click="drawer = !drawer">close</v-icon>
+        </v-list-tile>
+        <v-list-tile to="venue">
+          <v-list-tile-content>
+            <v-list-tile-title>Venue</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile to="visa">
+          <v-list-tile-content>
+            <v-list-tile-title>Visa Information</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile to="attractions">
+          <v-list-tile-content>
+            <v-list-tile-title>Attractions</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile to="contact">
+          <v-list-tile-content>
+            <v-list-tile-title>Contact</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+      </v-list>
+      <v-list class="hidden-lg-and-up">
         <v-list-tile>
           <v-icon @click="drawer = !drawer">close</v-icon>
         </v-list-tile>
@@ -115,6 +124,11 @@
             </v-list-tile-content>
           </v-list-tile>
         </v-list-group>
+        <v-list-tile color="red" to="#">
+          <v-list-tile-content>
+            <v-list-tile-title>News</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
         <v-list-tile to="papers">
           <v-list-tile-content>
             <v-list-tile-title>Call For Papers</v-list-tile-title>
