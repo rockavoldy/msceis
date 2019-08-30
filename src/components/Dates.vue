@@ -100,29 +100,28 @@
           <ul>
             <li>
               Abstract Submission:
-              <strike>{{phase3.absSubm | moment}}</strike>
-              &nbsp;{{phase3.absSubmExt | moment}}
+              <strike>{{phase3.absSubm | moment}}</strike>&nbsp;
+              <strike v-if="dateNow > phase3.absSubmExt">{{phase3.absSubmExt | moment}}</strike>
+              <span v-else>{{phase3.absSubmExt | moment}}</span>
             </li>
             <li>
               Abstract Notification/Acceptance:
-              <strike>{{phase3.absNotif | moment}}</strike>
-              &nbsp;{{phase3.absNotifExt | moment}}
+              <strike>{{phase3.absNotif | moment}}</strike>&nbsp;
+              <strike v-if="dateNow > phase3.absNotifExt">{{phase3.absNotifExt | moment}}</strike>
+              <span v-else>{{phase3.absNotifExt | moment}}</span>
             </li>
             <li>
               Full Paper Submission:
-              <strike>{{phase3.paperSubm | moment}}</strike>
-              &nbsp;{{phase3.paperSubmExt | moment}}
+              &nbsp;{{phase3.paperSubm | moment}}
             </li>
             <li>
               Full Paper Notification/Acceptance:
-              <strike>{{phase3.paperNotif | moment}}</strike>
-              &nbsp;{{phase3.paperNotifExt | moment}}
+              &nbsp;{{phase3.paperNotif | moment}}
             </li>
             <li>
               Deadline for Camera Ready Paper:
-              <strike>{{phase3.camReady | moment}}</strike>
               &nbsp;
-              {{phase3.camReadyExt | moment}}
+              {{phase3.camReady | moment}}
             </li>
           </ul>
         </div>
