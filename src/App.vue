@@ -50,6 +50,9 @@
         <v-btn flat class="hidden-md-and-down" to="dates">
           <span>Important Dates</span>
         </v-btn>
+        <v-btn flat class="hidden-md-and-down" to="venue">
+          <span>Venue</span>
+        </v-btn>
       </v-toolbar-items>
       <v-spacer></v-spacer>
       <v-toolbar-side-icon class="hidden-md-and-down" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
@@ -59,11 +62,6 @@
       <v-list class="hidden-md-and-down">
         <v-list-tile>
           <v-icon @click="drawer = !drawer">close</v-icon>
-        </v-list-tile>
-        <v-list-tile to="venue">
-          <v-list-tile-content>
-            <v-list-tile-title>Venue</v-list-tile-title>
-          </v-list-tile-content>
         </v-list-tile>
         <v-list-tile to="visa">
           <v-list-tile-content>
