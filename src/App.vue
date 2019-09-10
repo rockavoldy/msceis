@@ -38,7 +38,7 @@
             </v-list-tile>
           </v-list>
         </v-menu>
-        <v-btn flat class="hidden-md-and-down" color="red">
+        <v-btn flat class="hidden-md-and-down" color="red" to="news">
           <span>News</span>
         </v-btn>
         <v-btn flat class="hidden-md-and-down" to="papers">
@@ -122,7 +122,7 @@
             </v-list-tile-content>
           </v-list-tile>
         </v-list-group>
-        <v-list-tile color="red" to="#">
+        <v-list-tile color="red" to="news">
           <v-list-tile-content>
             <v-list-tile-title>News</v-list-tile-title>
           </v-list-tile-content>
@@ -376,10 +376,6 @@ export default {
       carouselHeight: null,
       drawer: null,
       items: [
-        {
-          name: "Registration Fee",
-          src: "./img/carousels/registration.png"
-        },
         {
           name: "Wayang Golek",
           src: "./img/carousels/alun1.jpg"
