@@ -149,28 +149,28 @@
               <v-flex xs12>
                 <v-layout row wrap>
                   <v-flex xs4 sm2>General</v-flex>
-                  <v-flex xs4 sm5>2.000.000 IDR</v-flex>
+                  <v-flex xs4 sm5>2.500.000 IDR</v-flex>
                   <v-flex xs4 sm5>600.000 IDR</v-flex>
                 </v-layout>
               </v-flex>
               <v-flex xs12>
                 <v-layout row wrap>
                   <v-flex xs4 sm2>&nbsp;</v-flex>
-                  <v-flex xs4 sm5>300 USD</v-flex>
+                  <v-flex xs4 sm5>350 USD</v-flex>
                   <v-flex xs4 sm5>50 USD</v-flex>
                 </v-layout>
               </v-flex>
               <v-flex xs12>
                 <v-layout row wrap>
                   <v-flex xs4 sm2>Student</v-flex>
-                  <v-flex xs4 sm5>1.500.000 IDR</v-flex>
+                  <v-flex xs4 sm5>2.200.000 IDR</v-flex>
                   <v-flex xs4 sm5>600.000 IDR</v-flex>
                 </v-layout>
               </v-flex>
               <v-flex xs12>
                 <v-layout row wrap>
                   <v-flex xs4 sm2>&nbsp;</v-flex>
-                  <v-flex xs4 sm5>275 USD</v-flex>
+                  <v-flex xs4 sm5>320 USD</v-flex>
                   <v-flex xs4 sm5>50 USD</v-flex>
                 </v-layout>
               </v-flex>
