@@ -47,8 +47,8 @@
             <router-link to="/dates" style="text-decoration: none">October 12, 2019.</router-link>
             <br>
             <b>
-              Abstract Submission (Phase 3):
-              <router-link to="/submission" style="text-decoration: none">August 15, 2019.</router-link>
+              Abstract Submission (Phase 3 Extended):
+              <router-link to="/submission" style="text-decoration: none">August 30, 2019.</router-link>
             </b>
             <br>
             <br>Please feel free to ask if you have any question. We expect to have more than 120 participants from more than 40 countries. All accepted and presented papers will be published by EAI CORE Series (<a href="https://eudl.eu/series/CORE">https://eudl.eu/series/CORE</a>), which is a publisher indexed by Web of Science, Scopus, etc., Consequently, any unpresented paper won't be published. Moreover, some selected papers will be submitted to the following international journals:
