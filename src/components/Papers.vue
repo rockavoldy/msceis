@@ -32,12 +32,7 @@
               href="https://msceis.org"
               target="_blank"
               style="text-decoration: none"
-            >https://msceis.org</a> &
-            <a
-              href="http://msceis.event.upi.edu"
-              target="_blank"
-              style="text-decoration: none"
-            >http://msceis.event.upi.edu</a>
+            >https://msceis.org</a>
             <br>Conference Venue:
             <router-link
               to="/venue"

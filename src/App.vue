@@ -217,11 +217,7 @@
               <br />Jl. Setiabudhi, No. 229, Bandung, West Java, Indonesia
               <br />
               <b>Website:&nbsp;</b>
-              <a
-                style="color: white"
-                target="_blank"
-                href="http://msceis.event.upi.edu/"
-              >http://msceis.event.upi.edu/</a>
+              <a style="color: white" target="_blank" href="https://msceis.org/">https://msceis.org/</a>
               <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 style="color: white"
