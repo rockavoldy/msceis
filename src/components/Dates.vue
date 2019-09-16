@@ -113,7 +113,8 @@
             <li>
               Full Paper Submission:
               &nbsp;
-              <strike>{{phase3.paperSubm | moment}}</strike>&nbsp;September 15, 2019
+              <strike>{{phase3.paperSubm | moment}}</strike>&nbsp;
+              <strike>September 15, 2019</strike>&nbsp;September 20, 2019
             </li>
             <li>
               Full Paper Notification/Acceptance:
