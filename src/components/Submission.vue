@@ -139,7 +139,7 @@
                 </v-layout>
               </v-flex>
               <v-flex xs12 class="text-xs-center">
-                <b>Regular (Until October 4, 2019)</b>
+                <b>Regular (Until October 10, 2019)</b>
               </v-flex>
               <v-flex xs12>
                 <v-layout row wrap>
@@ -249,7 +249,7 @@
                     <br class="hidden-md-and-up" />
                     <v-layout column>
                       <v-flex xs12>
-                        <b>Regular (Until October 4, 2019)</b>
+                        <b>Regular (Until October 10, 2019)</b>
                       </v-flex>
                       <v-flex xs12>
                         <v-layout row>
