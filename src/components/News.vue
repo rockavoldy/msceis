@@ -28,6 +28,7 @@
                       <v-list-tile-content>
                         <v-list-tile-title v-html="item.title"></v-list-tile-title>
                         <v-list-tile-sub-title v-html="item.subtitle"></v-list-tile-sub-title>
+                        <v-list-tile-sub-title v-html="item.download"></v-list-tile-sub-title>
                       </v-list-tile-content>
                     </v-list-tile>
                   </template>
@@ -62,7 +63,17 @@ export default {
         tanggal: "SEP 10",
         title: "Program schedule October 12, 2019 (tentative)",
         subtitle:
-          "Please find the general program schedule on October 12, 2019 as follows: <a href='./downloads/Program Schedule MSCEIS2019.pdf'>Program Schedule.pdf</a>"
+          "Please find the general program schedule on October 12, 2019 as follows:",
+        download:
+          "<a href='./downloads/Program Schedule MSCEIS2019.pdf'>Program Schedule.pdf</a>"
+      },
+      { divider: true, inset: true },
+      {
+        tanggal: "OCT 10",
+        title: "Book of Program MSCEIS 2019",
+        subtitle: "Please find the final version of Book of Program here:",
+        download:
+          "<a href='./downloads/BoP-MSCEIS-2019.pdf'>Book of Program MSCEIS 2019.pdf</a>"
       },
       { divider: true, inset: true }
     ]

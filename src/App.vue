@@ -210,18 +210,14 @@
               <b>Contact Us</b>
             </div>
             <div class="subheading white--text">
-              Faculty of Mathematics and Natural Sciences Education,
+              Faculty of Mathematics and Science Education,
               <br />
               <b>Universitas Pendidikan Indonesia</b>
               <br />2nd Floor of FPMIPA A (JICA) Building
               <br />Jl. Setiabudhi, No. 229, Bandung, West Java, Indonesia
               <br />
               <b>Website:&nbsp;</b>
-              <a
-                style="color: white"
-                target="_blank"
-                href="http://msceis.event.upi.edu/"
-              >http://msceis.event.upi.edu/</a>
+              <a style="color: white" target="_blank" href="https://msceis.org/">https://msceis.org/</a>
               <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a
                 style="color: white"
