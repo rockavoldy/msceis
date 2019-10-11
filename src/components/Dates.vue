@@ -108,26 +108,26 @@
               Abstract Notification/Acceptance:
               <strike>{{phase3.absNotif | moment}}</strike>&nbsp;
               <strike v-if="dateNow > phase3.absNotifExt">{{phase3.absNotifExt | moment}}</strike>
-              <span v-else>{{phase3.absNotifExt | moment}}</span> September 10, 2019
+              <span v-else>{{phase3.absNotifExt | moment}}</span><strike>September 10, 2019</strike>
             </li>
             <li>
               Full Paper Submission:
               &nbsp;
               <strike>{{phase3.paperSubm | moment}}</strike>&nbsp;
               <strike>September 15, 2019</strike>&nbsp;
-              <strike>September 20, 2019</strike>&nbsp;October 3, 2019
+              <strike>September 20, 2019</strike>&nbsp;<strike>October 3, 2019</strike>
             </li>
             <li>
               Full Paper Notification/Acceptance:
               &nbsp;
               <strike>{{phase3.paperNotif | moment}}</strike>&nbsp;
-              <strike>September 25, 2019</strike>&nbsp;October 7, 2019
+              <strike>September 25, 2019</strike>&nbsp;<strike>October 7, 2019</strike>
             </li>
             <li>
               Deadline for Camera Ready Paper:
               &nbsp;
               <strike>{{phase3.camReady | moment}}</strike>&nbsp;
-              <strike>October 3, 2019</strike>&nbsp;October 10, 2019
+              <strike>October 3, 2019</strike>&nbsp;<strike>October 10, 2019</strike>&nbsp;October 15, 2019
             </li>
           </ul>
         </div>

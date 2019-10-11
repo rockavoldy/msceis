@@ -210,7 +210,7 @@
               <b>Contact Us</b>
             </div>
             <div class="subheading white--text">
-              Faculty of Mathematics and Natural Sciences Education,
+              Faculty of Mathematics and Science Education,
               <br />
               <b>Universitas Pendidikan Indonesia</b>
               <br />2nd Floor of FPMIPA A (JICA) Building
