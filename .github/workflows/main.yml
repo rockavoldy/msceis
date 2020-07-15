@@ -1,4 +1,4 @@
-name: Deploy msceis to gh-pages
+name: Deploy msceis 2019 to Github Pages
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
