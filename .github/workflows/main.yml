@@ -1,4 +1,4 @@
-name: Deploy vu to gh-pages
+name: Deploy msceis to gh-pages
 
 on:
   push:
